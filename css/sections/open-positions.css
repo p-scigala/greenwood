@@ -1,0 +1,138 @@
+.open-positions .decor {
+  left: 0;
+  top: 25%;
+}
+
+.open-positions .decor path {
+  stroke: var(--gray-border);
+}
+
+.open-positions__title {
+  text-align: center;
+}
+
+.open-positions__subtitle {
+  text-align: center;
+}
+
+.open-positions__description {
+  text-align: center;
+  max-width: 555px;
+  margin: 20px auto 90px auto;
+}
+
+.open-positions__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.open-positions__list li {
+  padding-left: 0;
+}
+
+.open-positions__list li::before {
+  content: none;
+}
+
+.open-positions__item-icon {
+  margin-right: 8px;
+  width: 22px;
+  height: 22px;
+}
+
+.open-positions__item-icon path {
+  fill: var(--gray-dark);
+  transition: var(--transition);
+}
+
+.open-positions__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 7px;
+  padding: 20px;
+  border: solid 1px var(--gray-border);
+  width: 100%;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.open-positions__item * {
+  text-decoration: none;
+}
+
+.open-positions__item:hover {
+  border-color: var(--green);
+  color: var(--green);
+  text-decoration: none;
+}
+
+.open-positions__item:hover .btn--arrow {
+  background-color: var(--green);
+  border-color: var(--green);
+}
+
+.open-positions__item:hover .btn--arrow::before {
+  opacity: 0;
+}
+
+.open-positions__item:hover .btn--arrow::after {
+  opacity: 1;
+}
+
+.open-positions__item:hover .open-positions__item-icon path {
+  fill: var(--green);
+}
+
+.open-positions__item-title {
+  width: calc(50% - 31px);
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: var(--font-bold);
+  text-transform: uppercase;
+}
+
+.open-positions__item-address {
+  width: calc(50% - 31px);
+  line-height: normal;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .open-positions__list {
+    gap: 10px;
+  }
+
+  .open-positions__item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .open-positions__item-title {
+    width: 100%;
+  }
+
+  .open-positions__item-address {
+    width: 100%;
+    padding-right: 52px;
+    height: 42px;
+    line-height: 42px;
+  }
+
+  .open-positions__item-address span {
+    line-height: normal;
+  }
+
+  .open-positions__item .btn--arrow {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    margin: auto;
+  }
+}

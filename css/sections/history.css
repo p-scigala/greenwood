@@ -1,0 +1,24 @@
+/* .history {
+  position: relative;
+  margin: 80px auto;
+} */
+
+.history__title {
+  text-align: center;
+}
+
+.history__subtitle {
+  text-align: center;
+}
+
+.history__description {
+  text-align: center;
+  max-width: 321px;
+  margin: 0 auto 40px auto;
+}
+
+@media (max-width: 800px) {
+  .history {
+    margin: 45px auto;
+  }
+}

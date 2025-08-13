@@ -1,0 +1,41 @@
+.breadcrumb {
+  background: none;
+  margin: 0 auto 30px auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.breadcrumb a:not(:last-of-type)::after {
+  content: '/';
+  margin: 0 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.breadcrumb a {
+  color: var(--black);
+  font-size: 11px;
+  line-height: 24px;
+  font-family: var(--font-light);
+}
+
+.breadcrumb + .hero {
+  margin-top: -20px !important;
+  height: fit-content;
+  min-height: 60vh;
+}
+
+@media (max-width: 800px) {
+  .breadcrumb {
+    margin: 0;
+  }
+
+  .breadcrumb + .hero {
+    margin-top: 0 !important;
+    height: calc(100vh - var(--header-height-mobile) - 56px);
+  }
+
+  .breadcrumb + .hero .hero__slider {
+    height: 100%;
+  }
+}

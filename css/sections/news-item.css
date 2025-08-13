@@ -1,0 +1,20 @@
+.news-item__title {
+text-align: center;
+}
+
+.news-item__date {
+  text-align: center;
+}
+
+.news-item__description {
+  width: 386px;
+  max-width: 100%;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+.news-item__image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 48px;
+}

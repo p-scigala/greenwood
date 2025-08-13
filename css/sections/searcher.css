@@ -1,0 +1,258 @@
+.searcher {
+}
+
+.searcher__title {
+  text-align: center;
+  margin: 0 auto 18px auto;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: var(--font-bold);
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.searcher__description {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.searcher__form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.searcher__form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 30px;
+  padding: 0;
+  background-color: var(--beige);
+  border: solid 1px var(--gray-border);
+  border-radius: 7px;
+  z-index: 1;
+  position: relative;
+}
+
+.searcher__selects {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px 30px;
+  transition: var(--transition);
+  height: 67px;
+  overflow: hidden;
+  max-height: fit-content;
+}
+
+.searcher__selects--expanded {
+  height: 400px;
+  max-height: fit-content;
+}
+
+.searcher__selects select,
+.searcher__selects .select {
+  width: calc(33.33% - 20px);
+}
+
+.searcher__checkboxes {
+  margin-top: 15px;
+}
+
+.searcher__more-wrapper {
+  width: 100%;
+}
+
+.searcher__more.btn {
+  border: none;
+  background: none;
+  padding: 0 15px 0 0;
+  font-family: var(--font-medium);
+  vertical-align: middle;
+  font-size: 13px;
+  position: relative;
+  margin-top: 20px;
+  min-width: unset;
+  min-height: auto;
+}
+
+.searcher__more::after {
+  content: '';
+  width: 7px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url(../../imgs/icons/arrow-down.svg) center no-repeat;
+  background-size: contain;
+}
+
+.active .searcher__more::after {
+  transform: rotate(180deg);
+}
+
+.searcher__items {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 29px;
+  margin-bottom: 90px;
+}
+
+.searcher__display-filters {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin: 14px 0 17px auto;
+}
+
+.filter__display--block,
+.filter__display--list {
+  width: fit-content;
+  height: 18px;
+  display: inline-block;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.filter__display--block *,
+.filter__display--list * {
+  stroke: var(--gray-light);
+  fill: none;
+  stroke-width: 2;
+}
+
+.filter__display--block:hover *,
+.filter__display--list:hover *,
+.filter__display--block.active *,
+.filter__display--list.active * {
+  stroke: var(--green);
+}
+
+.searcher__items--list {
+  flex-direction: column;
+}
+
+.searcher__items--list .panel--plan {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  height: auto;
+  max-width: 800px;
+  height: 228px;
+}
+
+.searcher__items--list .panel--plan .panel--plan__top {
+  position: absolute;
+  width: calc(100% - 220px);
+  padding: 10px 20px;
+  height: 51px;
+  margin: 0 0 0 auto;
+  right: 0;
+}
+
+.searcher__items--list .panel--plan .panel--plan__image {
+  height: 100%;
+  width: 220px;
+  margin-top: 0;
+  z-index: 1;
+  background: var(--white);
+  border-right: solid 1px var(--gray-border);
+}
+
+.searcher__items--list .panel--plan .panel--plan__data {
+  display: block;
+  white-space: nowrap;
+  margin-top: 51px;
+  border-top: none;
+  width: 320px;
+}
+
+.searcher__items--list .panel--special .panel--plan__top::before {
+  top: 10px;
+}
+
+.searcher__items--list .panel--plan__bottom {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  gap: 30px;
+}
+
+.searcher__items--list .panel--plan {
+  transform: none !important;
+}
+
+.searcher .tabs {
+  margin-top: 90px;
+}
+
+.searcher .tabs__buttons {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1024px) {
+  .searcher__selects select,
+  .searcher__selects .select {
+    width: calc(50% - 20px);
+  }
+
+  .searcher .tabs {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .searcher {
+    margin: 40px auto;
+  }
+
+  .searcher .tabs {
+    margin-top: 40px;
+  }
+
+  .searcher .decor {
+    display: none;
+  }
+
+  .searcher .wrapper--small {
+    padding: 0;
+  }
+
+  .searcher__description {
+    margin-bottom: 28px;
+  }
+
+  .searcher__form {
+    padding: 30px 8px;
+    flex-direction: column;
+  }
+
+  .searcher__selects {
+    height: 436px;
+  }
+
+  .searcher__selects select,
+  .searcher__selects .select {
+    width: 100%;
+  }
+
+  .searcher__button {
+    width: 100%;
+    height: 62px;
+  }
+
+  .searcher__display-filters {
+    display: none;
+  }
+
+  .searcher__items {
+    margin-top: 30px;
+  }
+}

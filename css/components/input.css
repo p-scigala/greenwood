@@ -1,0 +1,171 @@
+form {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+form > .input:nth-child(1),
+form > .input:nth-child(4) {
+  width: 100%;
+}
+
+form > .input:nth-child(2),
+form > .input:nth-child(3) {
+  width: calc(50% - 15px);
+}
+
+.form__agreements {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form__submit {
+  font-size: 11px;
+  line-height: 14px;
+  min-width: 117px;
+  height: 46px;
+  text-transform: uppercase;
+}
+
+.input {
+  display: flex;
+  position: relative;
+}
+
+.input--text,
+.input--textarea {
+  flex-direction: column;
+}
+
+.input--checkbox {
+  flex-direction: row;
+}
+
+.input--text label,
+.input--textarea label {
+  font-size: 11px;
+  line-height: 14px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 24px;
+  top: 23px;
+  cursor: text;
+  z-index: 1;
+  user-select: none;
+  transform-origin: left top;
+  transition: var(--transition);
+  transition-timing-function: ease-in-out;
+}
+
+.input--checkbox label {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: var(--font-light);
+  margin-bottom: 0;
+  cursor: pointer;
+  padding-left: 32px;
+  position: relative;
+}
+
+.input--checkbox label::before,
+.input--checkbox label::after {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: var(--transition-short);
+}
+
+.input--checkbox label::before {
+  content: '';
+  display: block;
+  border: solid 1px var(--gray-border);
+  background: var(--white);
+}
+
+.input--checkbox label::after {
+  content: '\2713';
+  color: var(--white);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  padding-top: 3px;
+  transform: scale(0.8);
+  transition-delay: 0.15s;
+  opacity: 0;
+}
+
+.input--checkbox input:checked + label::before {
+  background-color: var(--green);
+  border-color: var(--green);
+}
+
+.input--checkbox input:checked + label::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.input--checkbox input {
+  display: none;
+}
+
+.input--text.input--focused label,
+.input--textarea.input--focused label {
+  transform: translateY(-12px) scale(0.6);
+  opacity: 0.7;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='phone'],
+textarea {
+  width: 100%;
+  border: solid 1px var(--gray-border);
+  border-radius: 7px;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 23px 24px;
+}
+
+textarea {
+  min-height: 122px;
+  resize: none;
+}
+
+@media (max-width: 800px) {
+  form {
+    gap: 20px;
+  }
+
+  form > .input:nth-child(2),
+  form > .input:nth-child(3) {
+    width: calc(50% - 10px);
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='phone'],
+  textarea {
+    padding: 16px;
+  }
+
+  .input--text label,
+  .input--textarea label {
+    left: 17px;
+    top: 17px;
+  }
+
+  .input--checkbox label {
+    font-size: 11px;
+  }
+
+  .form__agreements {
+    gap: 10px;
+  }
+}
