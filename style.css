@@ -16,6 +16,10 @@
 @import url('css/sections/hero.css');
 @import url('css/sections/searcher.css');
 @import url('css/sections/text-img.css');
+@import url('css/sections/apartment-templates.css');
+@import url('css/sections/advantages.css');
+@import url('css/sections/gallery-slider.css');
+@import url('css/sections/steps.css');
 
 /* 
 @import url('css/components/pagination.css');
@@ -46,9 +50,7 @@
 @import url('css/sections/recommendations.css');
 @import url('css/sections/content-items.css');
 @import url('css/sections/tour-3d.css');
-@import url('css/sections/steps.css');
 @import url('css/sections/wide-slider.css');
-@import url('css/sections/gallery-slider.css');
 @import url('css/sections/apartment.css');
 @import url('css/sections/image.css');
 @import url('css/sections/open-positions.css');

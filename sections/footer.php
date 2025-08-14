@@ -37,6 +37,7 @@
 
 </footer>
 
+<script src="js/hero.js"></script>
 <script src="js/gallery.js"></script>
 <script src="js/steps.js"></script>
 <script src="js/filters.js"></script>

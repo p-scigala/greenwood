@@ -1,12 +1,18 @@
 function scrollAnimationInit() {
   const items = document.querySelectorAll('.scroll-animation');
-
   const animatedNumbers = document.querySelectorAll('.animated-number');
+  const steps = document.querySelectorAll('.steps__item');
 
   const observerOptions = {
     root: null,
     rootMargin: '0px',
     threshold: 0.1,
+  };
+
+  const observer2Options = {
+    root: null,
+    rootMargin: '-50% 0% -20% 0%',
+    threshold: 0,
   };
 
   const observer = new IntersectionObserver((entries) => {
@@ -63,11 +69,25 @@ function scrollAnimationInit() {
     });
   }, observerOptions);
 
+ const observer2 = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      } else {
+        entry.target.classList.remove('active');
+      }
+    });
+  }, observer2Options);
+
   items.forEach((item) => {
     observer.observe(item);
   });
 
   animatedNumbers.forEach((item) => {
     observer.observe(item);
+  });
+
+  steps.forEach((item) => {
+    observer2.observe(item);
   });
 }

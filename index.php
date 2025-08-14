@@ -4,12 +4,12 @@
 
   <?php include('pages/home/hero.php'); ?>
   <?php include('pages/home/text-img.php'); ?>
-  <!-- <?php include('pages/home/apartments-templates.php'); ?> -->
-  <!-- <?php include('pages/home/advantages.php'); ?> -->
-  <!-- <?php include('pages/home/gallery-slider.php'); ?> -->
-  <!-- <?php include('pages/home/text-img-2.php'); ?> -->
-  <!-- <?php include('pages/home/steps.php'); ?> -->
-  <!-- <?php include('pages/home/text-img--multiple.php'); ?> -->
+  <?php include('pages/home/apartment-templates.php'); ?>
+  <?php include('pages/home/advantages.php'); ?>
+  <?php include('pages/home/gallery-slider.php'); ?>
+  <?php include('pages/home/text-img-2.php'); ?>
+  <?php include('pages/home/steps.php'); ?>
+  <?php include('pages/home/text-img--multiple.php'); ?>
 
 </main>
 

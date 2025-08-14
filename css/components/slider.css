@@ -26,7 +26,7 @@
 }
 
 .slick-track {
-  gap: 32px;
+  gap: 30px;
   display: flex;
   width: fit-content !important;
   height: 100%;

@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
   ratingInit();
   inputsInit();
   filtersInit();
-  stepsInit();
+  heroInit();
   galleryInit();
 });
 

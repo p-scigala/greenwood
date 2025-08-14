@@ -1,5 +1,7 @@
 <section class="text-img text-img--right">
 
+  <img src="imgs/decor-03.png" alt="" class="decor-03 decor--left decor--bottom" />
+
   <div class="wrapper">
 
     <div class="text-img__content">
@@ -26,7 +28,7 @@
         <img src="imgs/photos/photo-02.jpg" alt="GREENWOOD PARK" class="text-img__img">
       </div>
 
-      <div class="text-img__pagination-wrapper scroll-animation">
+      <div class="text-img__pagination-wrapper">
         <div class="text-img__pagination pagination-bar">
           <div class="pagination-bar__progress">
             <div class="pagination-bar__progress-bar"></div>

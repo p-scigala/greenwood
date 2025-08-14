@@ -1,90 +1,63 @@
-/* .gallery-slider {
-  position: relative;
-  margin: 180px auto 90px auto;
-} */
-
 .gallery-slider__title {
   text-align: center;
+  margin: 0 auto 75px auto;
 }
 
-.gallery-slider__subtitle {
-  text-align: center;
+.gallery-slider__slide {
+  width: 1088px;
+  height: 677px;
+  max-width: calc(100vw - 120px);
+  max-height: calc(66vw - 120px);
+  overflow: hidden;
+  border-radius: 7px;
 }
 
-.gallery-slider__description {
-  text-align: center;
-  max-width: 672px;
-  margin-left: auto;
-  margin-right: auto;
+.gallery-slider__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.gallery-slider__content-wrapper {
-  margin-top: 65px;
-}
-
-.gallery-slider__item {
-  border: none;
+.gallery-slider__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .gallery-slider__pagination-wrapper {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
+  margin: 45px auto 50px auto;
 }
 
-.gallery-slider__pagination {
-  margin: 50px 0 0 auto;
+.gallery-slider .slick-arrow.btn--arrow-left {
+  left: 60px;
 }
 
-.gallery-modal {
-  position: fixed;
-  z-index: 9999999999;
-  opacity: 0;
-  visibility: visible;
-  transition: var(--transition);
-  top: 0;
-  left: 0;
-  padding: 16px;
+.gallery-slider .slick-arrow.btn--arrow-right {
+  right: 60px;
 }
 
-.gallery-modal::before {
-  content: '';
-  background-color: rgba(50, 50, 50, 0.85);
-  z-index: -1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-  width: 100%;
-  height: 100%;
-  transition: var(--transition);
-}
-
-.gallery-modal__image {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 0;
-}
-
-.gallery-modal.active {
-  opacity: 1;
-  visibility: visible;
-  width: 100%;
-  height: 100%;
-}
-
-.gallery-modal.active::before {
-  opacity: 1;
-  visibility: visible;
+@media (max-width: 1280px) {
+  .gallery-slider__title {
+    margin: 0 auto 45px auto;
+  }
 }
 
 @media (max-width: 800px) {
-  .gallery-slider__pagination {
-    margin: 30px auto 0 auto;
+  .gallery-slider__title {
+    margin: 0 auto 30px auto;
   }
 
-  .gallery-modal {
-    padding: 8px;
+  .gallery-slider .slick-track {
+    gap: 10px;
+  }
+
+  .gallery-slider__slide {
+    width: calc(100vw - 45px);
+    height: calc(66vw - 45px);
+    max-width: unset;
+    max-height: unset;
   }
 }
