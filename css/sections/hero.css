@@ -84,8 +84,6 @@
 .hero__searcher {
   margin: 47px auto 0 auto;
   border: solid 1px var(--white);
-  border-radius: 7px;
-  padding: 24px 16px;
   max-width: 1120px;
 }
 

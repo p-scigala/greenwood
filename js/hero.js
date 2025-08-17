@@ -4,7 +4,6 @@ function heroInit() {
   const title = document.querySelector('.hero__title');
   const description = document.querySelector('.hero__description');
 
-  console.log(searcherMore, pagination);
   if (searcherMore) {
     searcherMore.addEventListener('click', function () {
       if (pagination) pagination.classList.toggle('hidden');

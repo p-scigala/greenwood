@@ -1,6 +1,6 @@
 .breadcrumb {
   background: none;
-  margin: 0 auto 30px auto;
+  margin: 70px auto 80px auto;
   padding-top: 16px;
   padding-bottom: 16px;
 }
@@ -14,8 +14,8 @@
 
 .breadcrumb a {
   color: var(--black);
-  font-size: 11px;
-  line-height: 24px;
+  font-size: 13px;
+  line-height: 29px;
   font-family: var(--font-light);
 }
 

@@ -34,28 +34,3 @@
   position: relative;
   transform: none;
 }
-
-@media (max-width: 1024px) {
-  .pagination-bar__progress {
-    width: 270px;
-  }
-
-  .pagination-bar__progress-bar {
-    width: 170px;
-  }
-}
-
-@media (max-width: 800px) {
-  .pagination-bar__progress {
-    margin: 0 auto;
-    width: 246px;
-  }
-
-  .pagination-bar__buttons {
-    display: none;
-  }
-
-  .pagination-bar__progress-bar {
-    width: 200px;
-  }
-}

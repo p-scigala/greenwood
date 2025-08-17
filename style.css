@@ -10,6 +10,9 @@
 @import url('css/components/slider.css');
 @import url('css/components/button.css');
 @import url('css/components/pagination-bar.css');
+@import url('css/components/breadcrumb.css');
+@import url('css/components/panel.css');
+@import url('css/components/input.css');
 
 @import url('css/sections/header.css');
 @import url('css/sections/footer.css');
@@ -18,16 +21,18 @@
 @import url('css/sections/text-img.css');
 @import url('css/sections/apartment-templates.css');
 @import url('css/sections/advantages.css');
+@import url('css/sections/gallery.css');
 @import url('css/sections/gallery-slider.css');
 @import url('css/sections/steps.css');
+@import url('css/sections/image.css');
+@import url('css/sections/apartment.css');
+@import url('css/sections/contact-form.css');
+@import url('css/sections/similar.css');
 
 /* 
 @import url('css/components/pagination.css');
 @import url('css/components/tabs.css');
 @import url('css/components/tabs-video.css');
-@import url('css/components/panel.css');
-@import url('css/components/breadcrumb.css');
-@import url('css/components/input.css');
 
 @import url('css/sections/on-sale.css');
 @import url('css/sections/about.css');
@@ -42,7 +47,6 @@
 @import url('css/sections/contact.css');
 @import url('css/sections/contact-mini.css');
 @import url('css/sections/contact-description.css');
-@import url('css/sections/contact-form.css');
 @import url('css/sections/contact-with-sellers.css');
 @import url('css/sections/history.css');
 @import url('css/sections/realisations.css');
@@ -51,7 +55,5 @@
 @import url('css/sections/content-items.css');
 @import url('css/sections/tour-3d.css');
 @import url('css/sections/wide-slider.css');
-@import url('css/sections/apartment.css');
-@import url('css/sections/image.css');
 @import url('css/sections/open-positions.css');
 @import url('css/sections/circles.css'); */

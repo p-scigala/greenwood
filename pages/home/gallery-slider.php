@@ -6,21 +6,21 @@
 
   <div class="gallery-slider__slider slider slider--with-bar scroll-animation delay-1">
 
-    <div class="gallery-slider__slide">
+    <button class="gallery-slider__slide" data-src="imgs/photos/photo-01.jpg">
       <img src="imgs/photos/photo-01.jpg" alt="" class="gallery-slider__image">
-    </div>
+    </button>
 
-    <div class="gallery-slider__slide">
+    <button class="gallery-slider__slide" data-src="imgs/photos/photo-02.jpg">
       <img src="imgs/photos/photo-02.jpg" alt="" class="gallery-slider__image">
-    </div>
+    </button>
 
-    <div class="gallery-slider__slide">
+    <button class="gallery-slider__slide" data-src="imgs/photos/photo-03.jpg">
       <img src="imgs/photos/photo-03.jpg" alt="" class="gallery-slider__image">
-    </div>
+    </button>
 
-    <div class="gallery-slider__slide">
+    <button class="gallery-slider__slide" data-src="imgs/photos/photo-04.jpg">
       <img src="imgs/photos/photo-04.jpg" alt="" class="gallery-slider__image">
-    </div>
+    </button>
 
   </div>
 

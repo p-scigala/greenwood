@@ -7,7 +7,8 @@ window.addEventListener('resize', function () {
     vh = document.body.clientHeight;
   }
 
-  debounce(fixApartmentGalleryItemsWidth, 300);
+  debounce(fixApartmentGalleryItemsWidth(), 300);
+  debounce(removeListTypeOnMobile(), 300);
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -21,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
   headerInit();
   ratingInit();
   inputsInit();
-  filtersInit();
   heroInit();
   galleryInit();
 });

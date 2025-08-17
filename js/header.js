@@ -8,6 +8,13 @@ function headerInit() {
     header.classList.toggle('header--active');
   });
 
+  const main = document.querySelector('main');
+  if (main) {
+    if (main.id === 'page-home') {
+      header.classList.add('header--home');
+    }
+  }
+
   /* set active menu element */
   const menuItems = document.querySelectorAll('.header__nav > ul > li');
 

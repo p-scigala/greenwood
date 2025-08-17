@@ -1,0 +1,28 @@
+.similar__title {
+  text-align: center;
+  margin: 0 auto 64px auto;
+}
+
+.similar .panel {
+  min-width: 552px;
+}
+
+.similar__pagination {
+  margin: 50px auto 0 auto;
+}
+
+@media (max-width: 800px) {
+  .similar__title {
+    margin-bottom: 30px;
+  }
+
+  .similar .slick-track {
+    gap: 10px;
+  }
+
+  .similar .panel {
+    min-width: unset;
+    width: 480px;
+    max-width: calc(100vw - 32px * 2);
+  }
+}

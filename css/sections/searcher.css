@@ -1,4 +1,11 @@
+.searcher-section {
+  margin-top: 30px;
+}
+
 .searcher {
+  border: solid 1px var(--black);
+  border-radius: 7px;
+  padding: 24px 16px;
 }
 
 .searcher__title {
@@ -9,6 +16,7 @@
   font-family: var(--font-bold);
   font-weight: normal;
   text-transform: uppercase;
+  color: var(--black);
 }
 
 .searcher__description {
@@ -108,7 +116,7 @@
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
-  margin: 14px 0 17px auto;
+  margin: 22px 0 22px auto;
 }
 
 .filter__display--block,
@@ -123,16 +131,19 @@
 
 .filter__display--block *,
 .filter__display--list * {
-  stroke: var(--gray-light);
+  stroke: var(--gray);
   fill: none;
   stroke-width: 2;
 }
 
 .filter__display--block:hover *,
-.filter__display--list:hover *,
+.filter__display--list:hover * {
+  stroke: var(--green);
+}
+
 .filter__display--block.active *,
 .filter__display--list.active * {
-  stroke: var(--green);
+  stroke: var(--black);
 }
 
 .searcher__items--list {
@@ -189,12 +200,17 @@
   transform: none !important;
 }
 
-.searcher .tabs {
-  margin-top: 90px;
+.searcher__items--block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
 }
 
-.searcher .tabs__buttons {
-  margin-bottom: 40px;
+.searcher__items--list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 @media (max-width: 1280px) {
@@ -221,9 +237,15 @@
   .searcher__selects .select {
     width: calc(50% - 20px);
   }
+}
 
-  .searcher .tabs {
-    margin-top: 60px;
+@media (max-width: 900px) {
+  .searcher__items--block {
+    flex-direction: column;
+  }
+
+  .searcher__items--block .panel {
+    min-width: 550px;
   }
 }
 
@@ -232,20 +254,8 @@
     margin: 40px auto;
   }
 
-  .searcher .tabs {
-    margin-top: 40px;
-  }
-
-  .searcher .decor {
-    display: none;
-  }
-
-  .searcher .wrapper--small {
+  .searcher .wrapper--medium {
     padding: 0;
-  }
-
-  .searcher__description {
-    margin-bottom: 28px;
   }
 
   .searcher__form {
@@ -273,8 +283,13 @@
   .searcher__items {
     margin-top: 30px;
   }
-  
+
   .searcher__selects--expanded {
     height: 800px;
+  }
+
+  .searcher__items--block .panel {
+    min-width: unset;
+    width: 100%;
   }
 }

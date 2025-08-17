@@ -1,6 +1,6 @@
 <section class="advantages green-decor">
 
-  <div class="wrapper--small">
+  <div class="wrapper--medium">
     <div class="advantages__content">
       <div class="advantages__column advantages__column--left">
 

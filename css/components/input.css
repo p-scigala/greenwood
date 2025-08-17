@@ -21,14 +21,6 @@ form > .input:nth-child(3) {
   gap: 20px;
 }
 
-.form__submit {
-  font-size: 11px;
-  line-height: 14px;
-  min-width: 117px;
-  height: 46px;
-  text-transform: uppercase;
-}
-
 .input {
   display: flex;
   position: relative;
@@ -45,11 +37,9 @@ form > .input:nth-child(3) {
 
 .input--text label,
 .input--textarea label {
-  font-size: 11px;
-  line-height: 14px;
-  text-transform: uppercase;
+  font-family: var(--font-medium);
   position: absolute;
-  left: 24px;
+  left: 18px;
   top: 23px;
   cursor: text;
   z-index: 1;
@@ -60,8 +50,8 @@ form > .input:nth-child(3) {
 }
 
 .input--checkbox label {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 10px;
+  line-height: 16px;
   font-family: var(--font-light);
   margin-bottom: 0;
   cursor: pointer;
@@ -83,7 +73,7 @@ form > .input:nth-child(3) {
 .input--checkbox label::before {
   content: '';
   display: block;
-  border: solid 1px var(--gray-border);
+  border: solid 1px var(--border);
   background: var(--white);
 }
 
@@ -95,7 +85,7 @@ form > .input:nth-child(3) {
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  padding-top: 3px;
+  padding-top: 1px;
   transform: scale(0.8);
   transition-delay: 0.15s;
   opacity: 0;
@@ -117,8 +107,29 @@ form > .input:nth-child(3) {
 
 .input--text.input--focused label,
 .input--textarea.input--focused label {
-  transform: translateY(-12px) scale(0.6);
+  transform: translateY(-15px) scale(0.55);
   opacity: 0.7;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='phone'],
+textarea,
+.input--text label,
+.input--textarea label {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--font-medium);
+  font-weight: normal;
+}
+
+textarea::placeholder,
+input::placeholder {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: var(--font-medium);
+  font-weight: normal;
+  color: var(--black);
 }
 
 input[type='text'],
@@ -126,11 +137,9 @@ input[type='email'],
 input[type='phone'],
 textarea {
   width: 100%;
-  border: solid 1px var(--gray-border);
+  border: solid 1px var(--border);
   border-radius: 7px;
-  font-size: 11px;
-  line-height: 14px;
-  padding: 23px 24px;
+  padding: 19px 18px;
 }
 
 textarea {

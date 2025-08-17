@@ -19,7 +19,7 @@ select,
   cursor: pointer;
   display: flex;
   align-items: center;
-  border: solid 1px var(--gray-border);
+  border: solid 1px var(--border);
   padding: 15px 21px;
   border-radius: 7px;
   transition: var(--transition-short);
@@ -73,7 +73,7 @@ select,
   padding-top: 2px;
   margin-top: -2px;
   background-color: var(--white);
-  border: 1px solid var(--gray-border);
+  border: 1px solid var(--black);
   border-radius: 0 0 7px 7px;
   overflow-y: scroll;
   visibility: hidden;
