@@ -37,7 +37,7 @@
 
 </footer>
 
-<script src="js/hero.js"></script>
+<!-- <script src="js/hero.js"></script>
 <script src="js/gallery.js"></script>
 <script src="js/steps.js"></script>
 <script src="js/animate-number.js"></script>
@@ -51,8 +51,8 @@
 <script src="js/tabs-video.js"></script>
 <script src="js/poi.js"></script>
 <script src="js/rating.js"></script>
-<script src="js/index.js" defer></script>
-<!-- <script src="js/bundle.min.js" defer></script> -->
+<script src="js/index.js" defer></script> -->
+<script src="js/bundle.min.js" defer></script>
 
 </body>
 

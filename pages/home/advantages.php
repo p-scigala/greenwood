@@ -29,7 +29,7 @@
           <div class="advantages__icon-wrapper">
             <img src="imgs/icons/park.svg" alt="" class="advantages__icon">
           </div>
-          <h3 class="advantages__subtitle">w otulinie Mazowieckiego<br>Parku Krajobrazowego</h3>
+          <h3 class="advantages__subtitle">W otulinie Mazowieckiego<br>Parku Krajobrazowego</h3>
         </div>
 
       </div>

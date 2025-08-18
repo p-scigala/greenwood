@@ -13,17 +13,17 @@
           est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
       </div>
       <div class="text-img__icons scroll-animation delay-3">
-        <div class="text-img__item">
-          <div class="text-img__icon-wrapper">
-            <img src="imgs/icons/construction.svg" alt="" class="text-img__icon">
+        <div class="icon">
+          <div class="icon__wrapper">
+            <img src="imgs/icons/construction.svg" alt="" class="icon__img">
           </div>
-          <span class="text-img__icon-text">Nowoczesne projekty<br>mieszkaniowo-usługowe</span>
+          <span class="icon__text">Nowoczesne projekty<br>mieszkaniowo-usługowe</span>
         </div>
-        <div class="text-img__item">
-          <div class="text-img__icon-wrapper">
-            <img src="imgs/icons/map.svg" alt="" class="text-img__icon">
+        <div class="icon">
+          <div class="icon__wrapper">
+            <img src="imgs/icons/map.svg" alt="" class="icon__img">
           </div>
-          <span class="text-img__icon-text">Zaufana spółka działająca<br>na krajowym rynku</span>
+          <span class="icon__text">Zaufana spółka działająca<br>na krajowym rynku</span>
         </div>
       </div>
     </div>

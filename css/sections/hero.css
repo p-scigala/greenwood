@@ -81,7 +81,7 @@
   text-align: center;
 }
 
-.hero__searcher {
+.hero__searcher.searcher {
   margin: 47px auto 0 auto;
   border: solid 1px var(--white);
   max-width: 1120px;
@@ -128,6 +128,7 @@
   .hero .btn--arrow-left {
     left: 30px;
   }
+
   .hero .btn--arrow-right {
     right: 30px;
   }

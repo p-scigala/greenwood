@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Greenwood</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.min.css">
   <link rel="icon" href="imgs/favicon/cropped-favicon-32x32.png" type="image/x-icon">
   <link rel="icon" href="imgs/favicon/cropped-favicon-32x32.png" sizes="32x32">
   <link rel="icon" href="imgs/favicon/cropped-favicon-192x192.png" sizes="192x192">
@@ -32,7 +32,7 @@
           <ul>
             <li class="active"><a href="/">Strona główna</a></li>
             <li><a href="/mieszkania.php">Mieszkania</a></li>
-            <li><a href="/o-inwestorze.php">O inwestorze</a></li>
+            <li><a href="/o-inwestycji.php">O inwestycji</a></li>
             <li><a href="/galeria.php">Galeria</a></li>
             <li><a href="/lokalizacja.php">Lokalizacja</a></li>
             <li><a href="/kontakt.php">Kontakt</a></li>

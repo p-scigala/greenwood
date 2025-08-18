@@ -3,6 +3,12 @@
   margin: 0 auto 83px auto;
 }
 
+.steps__subtitle {
+  text-align: center;
+  max-width: 536px;
+  margin: -53px auto 90px auto;
+}
+
 .steps__list {
   display: flex;
   flex-direction: column;

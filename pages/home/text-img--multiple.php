@@ -1,4 +1,4 @@
-<section class="text-img text-img--right text-img--multiple">
+<section class="text-img text-img--multiple">
 
   <div class="wrapper">
 

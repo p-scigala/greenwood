@@ -34,21 +34,25 @@
   src: url('../fonts/Poppins-Light.ttf');
   font-weight: lighter;
 }
+
 @font-face {
   font-family: 'regular';
   src: url('../fonts/Poppins-Regular.ttf');
   font-weight: normal;
 }
+
 @font-face {
   font-family: 'medium';
   src: url('../fonts/Poppins-Medium.ttf');
   font-weight: 500;
 }
+
 @font-face {
   font-family: 'bold';
   src: url('../fonts/Poppins-Bold.ttf');
   font-weight: 700;
 }
+
 @font-face {
   font-family: 'semibold';
   src: url('../fonts/Poppins-SemiBold.ttf');
@@ -91,6 +95,10 @@ section:first-of-type:not(.hero) {
   margin-top: 80px;
 }
 
+section:last-child {
+  margin-bottom: 90px !important;
+}
+
 h1 {
   text-transform: uppercase;
 }
@@ -98,7 +106,7 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-size: 48px;
-  line-height: 50px;
+  line-height: 65px;
   margin: 0 0 40px 0;
   font-family: var(--font-bold);
   background: linear-gradient(90deg, var(--green), var(--green-dark));
@@ -108,7 +116,7 @@ h2 {
   width: fit-content;
 }
 
-h2 + h3 {
+h2+h3 {
   font-family: var(--font-bold);
   font-size: 15px;
   line-height: 24px;
@@ -294,9 +302,7 @@ section.no-decor .decor-03 {
 }
 
 .green-decor {
-  background: transparent
-    linear-gradient(247deg, var(--green-dark) 0%, var(--green) 100%) 0% 0%
-    no-repeat padding-box;
+  background: transparent linear-gradient(247deg, var(--green-dark) 0%, var(--green) 100%) 0% 0% no-repeat padding-box;
 }
 
 .green-decor::before,
@@ -362,9 +368,11 @@ section.no-decor .decor-03 {
   0% {
     opacity: 0.2;
   }
+
   50% {
     opacity: 1;
   }
+
   100% {
     opacity: 0.2;
   }
@@ -374,9 +382,11 @@ section.no-decor .decor-03 {
   0% {
     opacity: 1;
   }
+
   10% {
     opacity: 0.4;
   }
+
   20%,
   100% {
     opacity: 1;
@@ -386,12 +396,15 @@ section.no-decor .decor-03 {
 .decor-animated-1 {
   animation: decorAnimated 5s -1s linear infinite;
 }
+
 .decor-animated-2 {
   animation: decorAnimated 5s -2s linear infinite;
 }
+
 .decor-animated-3 {
   animation: decorAnimated 5s -3s linear infinite;
 }
+
 .decor-animated-4 {
   animation: decorAnimated 5s -4s linear infinite;
 }
@@ -403,36 +416,47 @@ section.no-decor .decor-03 {
 .decor-animated-group-2 {
   animation-delay: 0.1s;
 }
+
 .decor-animated-group-3 {
   animation-delay: 0.2s;
 }
+
 .decor-animated-group-4 {
   animation-delay: 0.3s;
 }
+
 .decor-animated-group-5 {
   animation-delay: 0.4s;
 }
+
 .decor-animated-group-6 {
   animation-delay: 0.5s;
 }
+
 .decor-animated-group-7 {
   animation-delay: 0.6s;
 }
+
 .decor-animated-group-8 {
   animation-delay: 0.7s;
 }
+
 .decor-animated-group-9 {
   animation-delay: 0.8s;
 }
+
 .decor-animated-group-10 {
   animation-delay: 0.9s;
 }
+
 .decor-animated-group-11 {
   animation-delay: 1s;
 }
+
 .decor-animated-group-12 {
   animation-delay: 1.1s;
 }
+
 .decor-animated-group-13 {
   animation-delay: 1.2s;
 }
@@ -454,6 +478,7 @@ section.no-decor .decor-03 {
 }
 
 @media (max-width: 1280px) {
+
   .wrapper--small,
   .wrapper--medium,
   .wrapper {
@@ -509,7 +534,7 @@ section.no-decor .decor-03 {
     line-height: 20px;
   }
 
-  h2 + h3 {
+  h2+h3 {
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 20px;

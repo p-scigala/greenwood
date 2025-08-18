@@ -1,4 +1,4 @@
-<section class="text-img text-img--right">
+<section class="text-img">
 
   <img src="imgs/decor-03.png" alt="" class="decor-03 decor--right decor--bottom" />
 

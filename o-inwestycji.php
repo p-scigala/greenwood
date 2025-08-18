@@ -9,7 +9,7 @@
 
   <?php include('pages/o-inwestycji/text-img.php'); ?>
   <?php include('pages/o-inwestycji/text-img--multiple.php'); ?>
-  <?php include('pages/o-inwestycji/text-img--right.php'); ?>
+  <?php include('pages/o-inwestycji/text-img--left.php'); ?>
   <?php include('pages/o-inwestycji/text-img-2.php'); ?>
   <?php include('pages/o-inwestycji/contact-form.php'); ?>
 
