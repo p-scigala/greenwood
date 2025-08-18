@@ -21,7 +21,7 @@
     <div class="wrapper">
 
       <h1 class="header__logo">
-        <a href="#">
+        <a href="/">
           <img src="imgs/logos/logo.svg" alt="GREENWOOD PARK" class="header__logo-img">
         </a>
       </h1>
@@ -30,7 +30,7 @@
 
         <nav class="header__nav">
           <ul>
-            <li class="active"><a href="/">Strona główna</a></li>
+            <li><a href="/">Strona główna</a></li>
             <li><a href="/mieszkania.php">Mieszkania</a></li>
             <li><a href="/o-inwestycji.php">O inwestycji</a></li>
             <li><a href="/galeria.php">Galeria</a></li>

@@ -43,14 +43,16 @@
       </div>
     </div>
 
+    <!-- possible types: image, video, iframe -->
+
     <div class="gallery__items-wrapper" data-category="filmy">
       <button class="gallery__back-button with-arrow with-arrow--left">Powrót</button>
       <h2 class="gallery__title scroll-animation">Filmy</h2>
       <div class="gallery__items">
-        <div class="gallery__item" data-src="videos/video-01.mp4" data-type="video"
+        <div class="gallery__item" data-src="imgs/photos/photo-01.jpg" data-type="image"
           data-thumb="imgs/photos/thumb/photo-01.jpg">
         </div>
-        <div class="gallery__item" data-src="https://www.youtube.com/watch?v=C0DPdy98e4c" data-type="iframe"
+        <div class="gallery__item" data-src="imgs/photos/photo-02.jpg" data-type="image"
           data-thumb="imgs/photos/thumb/photo-02.jpg">
         </div>
       </div>
