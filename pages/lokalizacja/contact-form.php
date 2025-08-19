@@ -12,7 +12,7 @@
       <h3 class="contact-form__form-title">Formularz kontaktowy</h3>
       <form class="form" action="">
         <div class="input input--text">
-          <label for="name">Imię i nazwisko</label>
+          <label for="name">Imię</label>
           <input type="text" id="name" name="name" />
         </div>
         <div class="input input--text">

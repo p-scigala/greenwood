@@ -29,7 +29,7 @@
     </div>
 
     <div class="text-img__image scroll-animation delay-3">
-      <div class="text-img__image-inner slider slider--with-bar">
+      <div class="text-img__image-inner">
         <img src="imgs/photos/photo-12.jpg" alt="GREENWOOD PARK" class="text-img__img">
       </div>
     </div>

@@ -4,6 +4,17 @@
   overflow: hidden;
 }
 
+.hero::before {
+  content: url(../../imgs/white-bottom.svg);
+  display: block;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(63px);
+  z-index: 10;
+}
+
 .hero__content {
   position: absolute;
   top: 0;
@@ -83,7 +94,7 @@
 
 .hero__searcher.searcher {
   margin: 47px auto 0 auto;
-  border: solid 1px var(--white);
+  border: solid 1px var(--border);
   max-width: 1120px;
 }
 

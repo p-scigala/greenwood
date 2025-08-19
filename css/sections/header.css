@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   transition: var(--transition);
-  padding: 22px 0;
+  padding: 8px 0;
 }
 
 .header .wrapper {
@@ -20,7 +20,7 @@
 
 .header__logo {
   position: absolute;
-  top: 0;
+  top: 14px;
   left: 32px;
   height: 153px;
   transition: var(--transition);
@@ -36,7 +36,8 @@
 }
 
 .header--scrolled .header__logo {
-  height: 100px;
+  height: 60px;
+  top: 0;
   filter: none;
 }
 
@@ -68,6 +69,7 @@
 
 .header ul li a {
   text-decoration: none;
+  text-transform: uppercase;
   transition: color var(--transition);
   padding: 16px;
 }
@@ -245,7 +247,7 @@
     height: calc(100% - var(--header-height-mobile));
     background-color: var(--white);
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     transition: var(--transition);
     gap: 40px;
@@ -262,8 +264,6 @@
 
   .header__nav ul {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     max-width: unset;
   }
 
@@ -287,7 +287,7 @@
   }
 
   .header__phone.btn {
-    margin: 0 auto;
+    margin: 0 0 0 16px;
   }
 
   .header--active .header__menu {

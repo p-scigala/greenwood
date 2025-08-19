@@ -1,8 +1,10 @@
 .footer {
   margin-top: 180px;
   background-color: var(--dark);
+  background-image: url('../../imgs/footer-bg.jpg');
   padding: 60px 0 85px 0;
   position: relative;
+  overflow: hidden;
 }
 
 .footer::before {
@@ -13,6 +15,7 @@
   position: absolute;
   top: 0;
   transform: translateY(-58px);
+  z-index: 3;
 }
 
 .footer * {
@@ -24,6 +27,8 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 32px;
+  z-index: 4;
+  position: relative;
 }
 
 .footer__logo {
@@ -50,6 +55,7 @@
 .footer__nav {
   width: 50%;
 }
+
 .footer__nav li {
   display: block;
   margin: 14px 0;

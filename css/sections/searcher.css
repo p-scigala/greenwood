@@ -131,19 +131,22 @@
 
 .filter__display--block *,
 .filter__display--list * {
-  stroke: var(--gray);
-  fill: none;
-  stroke-width: 2;
+  /* stroke: var(--gray); */
+  /* fill: none; */
+  /* stroke-width: 2; */
+  fill: var(--gray);
 }
 
 .filter__display--block:hover *,
 .filter__display--list:hover * {
-  stroke: var(--green);
+  /* stroke: var(--green); */
+  fill: var(--green);
 }
 
 .filter__display--block.active *,
 .filter__display--list.active * {
-  stroke: var(--black);
+  /* stroke: var(--black); */
+  fill: var(--black);
 }
 
 .searcher__items--list {
@@ -233,6 +236,7 @@
 }
 
 @media (max-width: 1024px) {
+
   .searcher__selects select,
   .searcher__selects .select {
     width: calc(50% - 20px);

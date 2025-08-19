@@ -20,7 +20,7 @@
         </ul>
         <p>Zespół doświadczonych specjalistów oraz sprawdzeni partnerzy zapewniają najwyższy standard realizacji – tak,
           by każda nieruchomość spełniała oczekiwania najbardziej wymagających klientów.</p>
-        <p><b>Zamieszkaj w zielonej części Warszawy – Białołęka czeka na Ciebie.</b>Nowoczesne osiedle Greenwood
+        <p><b>Zamieszkaj w zielonej części Warszawy – Białołęka czeka na Ciebie.</b> Nowoczesne osiedle Greenwood
           powstało przy ul. Jeździeckiej, Warszawa – Wesoła, w jednej z najbardziej rozwijających się i przyjaznych do
           życia dzielnic stolicy. Kameralne sąsiedztwo, świetna komunikacja i pełna infrastruktura – wszystko, czego
           potrzebujesz na co dzień.</p>

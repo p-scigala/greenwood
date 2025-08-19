@@ -151,6 +151,12 @@
   gap: 30px;
 }
 
+@media (max-width: 1400px) {
+  .text-img--multiple .text-img__image-inner {
+    height: calc(36vw - 32px);
+  }
+}
+
 @media (max-width: 1280px) {
   .text-img__logo {
     width: 220px;
@@ -165,6 +171,10 @@
 
   .text-img__pagination-wrapper {
     bottom: -90px;
+  }
+
+  .text-img--multiple .text-img__image-inner {
+    height: 350px;
   }
 }
 
@@ -192,5 +202,9 @@
 
   .text-img__logo-img {
     width: 120px;
+  }
+
+  .text-img--multiple .text-img__image-inner {
+    height: calc(70vw - 32px);
   }
 }

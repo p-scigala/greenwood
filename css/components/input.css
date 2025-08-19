@@ -5,13 +5,13 @@ form {
   flex-wrap: wrap;
 }
 
-form > .input:nth-child(1),
-form > .input:nth-child(4) {
+form>.input:nth-child(1),
+form>.input:nth-child(4) {
   width: 100%;
 }
 
-form > .input:nth-child(2),
-form > .input:nth-child(3) {
+form>.input:nth-child(2),
+form>.input:nth-child(3) {
   width: calc(50% - 15px);
 }
 
@@ -91,12 +91,12 @@ form > .input:nth-child(3) {
   opacity: 0;
 }
 
-.input--checkbox input:checked + label::before {
+.input--checkbox input:checked+label::before {
   background-color: var(--green);
   border-color: var(--green);
 }
 
-.input--checkbox input:checked + label::after {
+.input--checkbox input:checked+label::after {
   opacity: 1;
   transform: scale(1);
 }
@@ -152,8 +152,8 @@ textarea {
     gap: 20px;
   }
 
-  form > .input:nth-child(2),
-  form > .input:nth-child(3) {
+  form>.input:nth-child(2),
+  form>.input:nth-child(3) {
     width: calc(50% - 10px);
   }
 
@@ -176,5 +176,13 @@ textarea {
 
   .form__agreements {
     gap: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  form>.input:nth-child(2),
+  form>.input:nth-child(3) {
+    width: 100%;
   }
 }

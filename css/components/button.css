@@ -171,17 +171,6 @@
   transform: rotate(180deg);
 }
 
-/* .with-arrow:hover {
-  right: 10px;
-  transform: translateX(5px);
-}
-
-.with-arrow--left:hover {
-  left: -10px;
-  right: auto;
-  transform: translateX(-5px);
-} */
-
 .cta-link {
   font-family: var(--font-bold);
   position: relative;
@@ -210,6 +199,8 @@
 
 @media (max-width: 800px) {
   .btn {
-    min-height: 54px;
+    min-height: 50px;
+    min-width: 200px;
+    font-size: 16px;
   }
 }

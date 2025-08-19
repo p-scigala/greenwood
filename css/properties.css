@@ -311,6 +311,7 @@ section.no-decor .decor-03 {
   margin: 0;
   width: 100%;
   position: absolute;
+  z-index: 1;
 }
 
 .green-decor::before {
@@ -508,11 +509,19 @@ section.no-decor .decor-03 {
   .wrapper {
     width: 100%;
   }
+
+  main:not(#page-home) {
+    padding-top: var(--header-height-mobile);
+  }
 }
 
 @media (max-width: 800px) {
   section {
     margin: 90px auto 45px auto;
+  }
+
+  section:first-of-type:not(.hero) {
+    margin-top: 8px;
   }
 
   .wrapper--medium,

@@ -1,7 +1,6 @@
 </main>
 
 <footer class="footer">
-
   <div class="wrapper">
 
     <div class="footer__left">
@@ -33,8 +32,8 @@
         <p>ul. Jeździecka 20</p>
       </nav>
     </div>
-  </div>
 
+  </div>
 </footer>
 
 <!-- <script src="js/hero.js"></script>
