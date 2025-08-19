@@ -6,11 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Greenwood</title>
   <link rel="stylesheet" href="style.min.css">
-  <link rel="icon" href="imgs/favicon/cropped-favicon-32x32.png" type="image/x-icon">
-  <link rel="icon" href="imgs/favicon/cropped-favicon-32x32.png" sizes="32x32">
-  <link rel="icon" href="imgs/favicon/cropped-favicon-192x192.png" sizes="192x192">
-  <link rel="apple-touch-icon" href="imgs/favicon/cropped-favicon-180x180.png">
-  <meta name="msapplication-TileImage" content="imgs/favicon/cropped-favicon-270x270.png">
+  <link rel="icon" href="imgs/favicon/favicon.png" type="image/x-icon">
   <script src="js/jquery/jquery-3.7.1.min.js"></script>
   <script src="js/slick/slick.min.js"></script>
 </head>
