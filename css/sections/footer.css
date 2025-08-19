@@ -133,6 +133,7 @@
 @media (max-width: 800px) {
   .footer {
     margin-top: 90px;
+    background-image: url('../../imgs/footer-bg-mobile.jpg');
   }
 
   .footer__logo {

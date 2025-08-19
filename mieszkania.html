@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greenwood</title>
+  <link rel="stylesheet" href="style.min.css">
+  <link rel="icon" href="imgs/favicon/cropped-favicon-32x32.png" type="image/x-icon">
+  <link rel="icon" href="imgs/favicon/cropped-favicon-32x32.png" sizes="32x32">
+  <link rel="icon" href="imgs/favicon/cropped-favicon-192x192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="imgs/favicon/cropped-favicon-180x180.png">
+  <meta name="msapplication-TileImage" content="imgs/favicon/cropped-favicon-270x270.png">
+  <script src="js/jquery/jquery-3.7.1.min.js"></script>
+  <script src="js/slick/slick.min.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="wrapper">
+
+      <h1 class="header__logo">
+        <a href="/">
+          <img src="imgs/logos/logo.svg" alt="GREENWOOD PARK" class="header__logo-img">
+        </a>
+      </h1>
+
+      <div class="header__menu">
+
+        <nav class="header__nav">
+          <ul>
+            <li><a href="/">Strona główna</a></li>
+            <li><a href="/mieszkania.html">Mieszkania</a></li>
+            <li><a href="/o-inwestycji.html">O inwestycji</a></li>
+            <li><a href="/galeria.html">Galeria</a></li>
+            <li><a href="/lokalizacja.html">Lokalizacja</a></li>
+            <li><a href="/kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+
+        <a href="tel:+48123456789" class="header__phone btn btn--primary">123 456 789</a>
+
+        <div class="header__socials socials">
+          <div class="socials__icons">
+            <a href="#" class="socials__icon">
+              <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="31.929" height="31.929"
+                viewBox="0 0 31.929 31.929">
+                <path d="M213.111,210.056A3.056,3.056,0,1,1,210.056,207,3.056,3.056,0,0,1,213.111,210.056Zm0,0"
+                  transform="translate(-194.091 -194.091)" fill="#fff" />
+                <path
+                  d="M150.146,137.6a3.036,3.036,0,0,0-1.74-1.74,5.072,5.072,0,0,0-1.7-.315c-.967-.044-1.257-.054-3.7-.054s-2.738.009-3.7.053a5.075,5.075,0,0,0-1.7.316,3.037,3.037,0,0,0-1.74,1.74,5.074,5.074,0,0,0-.315,1.7c-.044.967-.054,1.256-.054,3.7s.01,2.738.054,3.7a5.072,5.072,0,0,0,.315,1.7,3.036,3.036,0,0,0,1.74,1.74,5.066,5.066,0,0,0,1.7.316c.967.044,1.256.053,3.7.053s2.738-.009,3.7-.053a5.066,5.066,0,0,0,1.7-.316,3.036,3.036,0,0,0,1.74-1.74,5.076,5.076,0,0,0,.316-1.7c.044-.967.053-1.257.053-3.7s-.009-2.738-.053-3.7A5.066,5.066,0,0,0,150.146,137.6ZM143,147.711A4.707,4.707,0,1,1,147.707,143,4.707,4.707,0,0,1,143,147.711Zm4.893-8.5a1.1,1.1,0,1,1,1.1-1.1A1.1,1.1,0,0,1,147.894,139.211Zm0,0"
+                  transform="translate(-127.036 -127.039)" fill="#fff" />
+                <path
+                  d="M15.964,0A15.964,15.964,0,1,0,31.929,15.964,15.966,15.966,0,0,0,15.964,0Zm9.112,19.744a6.726,6.726,0,0,1-.426,2.225,4.687,4.687,0,0,1-2.681,2.681,6.73,6.73,0,0,1-2.225.426c-.978.045-1.29.055-3.779.055s-2.8-.011-3.78-.055A6.73,6.73,0,0,1,9.96,24.65a4.687,4.687,0,0,1-2.681-2.681,6.724,6.724,0,0,1-.426-2.225c-.045-.978-.056-1.29-.056-3.78s.01-2.8.055-3.779A6.726,6.726,0,0,1,7.278,9.96,4.69,4.69,0,0,1,9.96,7.279a6.732,6.732,0,0,1,2.225-.426c.978-.045,1.29-.055,3.779-.055s2.8.011,3.779.056a6.733,6.733,0,0,1,2.225.426A4.689,4.689,0,0,1,24.65,9.96a6.725,6.725,0,0,1,.426,2.225c.045.978.055,1.29.055,3.779S25.121,18.766,25.076,19.744Zm0,0"
+                  fill="#fff" />
+              </svg>
+            </a>
+            <a href="#" class="socials__icon">
+              <svg id="fb" xmlns="http://www.w3.org/2000/svg" width="31.929" height="31.929"
+                viewBox="0 0 31.929 31.929">
+                <g>
+                  <path
+                    d="M15.964,0A15.964,15.964,0,1,0,31.929,15.964,15.964,15.964,0,0,0,15.964,0Zm4.541,10.39c0,.3-.126.42-.42.42-.565,0-1.13,0-1.693.023s-.87.279-.87.868c-.013.63,0,1.248,0,1.891h2.418c.344,0,.462.118.462.464v2.533c0,.342-.109.45-.456.452H17.5v6.835c0,.365-.113.481-.475.481H14.4c-.317,0-.441-.124-.441-.441V17.05H11.868c-.328,0-.445-.12-.445-.45V14.053c0-.328.124-.452.447-.452h2.086V11.763A4.6,4.6,0,0,1,14.53,9.4a3.468,3.468,0,0,1,1.876-1.559,4.6,4.6,0,0,1,1.607-.277h2.065c.3,0,.42.13.42.42.011.809.011,1.609.008,2.407Z"
+                    fill="#fff" />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="header__menu-toggle">
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+<main class="main" id="page-mieszkania">
+
+  <div class="breadcrumb wrapper">
+    <a href="#">Strona główna</a>
+    <a href="#">Mieszkania</a>
+  </div>
+
+  <section class="image">
+
+  <img src="imgs/decor-03.png" alt="" class="decor-03 decor--right decor--top" />
+
+  <div class="wrapper--small">
+    <h2 class="image__title scroll-animation">Greenwood Park</h2>
+    <img class="image__img scroll-animation delay-1" src="imgs/photos/photo-11.jpg" alt="Greenwood Park">
+  </div>
+</section>  <section class="searcher-section">
+  <div class="wrapper--small">
+
+    <div class="searcher scroll-animation delay-2">
+      <h3 class="searcher__title">Wyszukiwarka mieszkań</h3>
+      <form class="searcher__form">
+
+        <div class="searcher__filters">
+          <div class="searcher__selects">
+
+            <select name="surface" id="surface">
+              <option value="" disabled selected>Powierzchnia</option>
+              <option value="mieszkanie">Mieszkanie</option>
+              <option value="dom">Dom</option>
+              <option value="lokal">Lokal</option>
+            </select>
+
+            <select name="rooms" id="rooms">
+              <option value="" disabled selected>Liczba pokoi</option>
+              <option value="1">1 pokój</option>
+              <option value="2">2 pokoje</option>
+              <option value="3">3 pokoje</option>
+              <option value="4">4 pokoje</option>
+              <option value="5">5 pokoi</option>
+            </select>
+
+            <select name="floor" id="floor">
+              <option value="" disabled selected>Piętro</option>
+              <option value="parter">Parter</option>
+              <option value="1">1 piętro</option>
+              <option value="2">2 piętro</option>
+              <option value="3">3 piętro</option>
+              <option value="4">4 piętro</option>
+              <option value="5">5 piętro</option>
+              <option value="6">6 piętro</option>
+              <option value="7">7 piętro</option>
+              <option value="8">8 piętro</option>
+              <option value="9">9 piętro</option>
+              <option value="10">10 piętro</option>
+            </select>
+
+            <select name="investition" id="investition">
+              <option value="" disabled selected>Inwestycja</option>
+              <option value="inwestycja1">Inwestycja 1</option>
+              <option value="inwestycja2">Inwestycja 2</option>
+              <option value="inwestycja3">Inwestycja 3</option>
+            </select>
+
+            <select name="price" id="price">
+              <option value="" disabled selected>Przedział cenowy</option>
+              <option value="do-300000">do 300 000 zł</option>
+              <option value="300000-500000">300 000 - 500 000 zł</option>
+              <option value="500000-700000">500 000 - 700 000 zł</option>
+              <option value="700000-1000000">700 000 - 1 000 000 zł</option>
+              <option value="powyzej-1000000">powyżej 1 000 000 zł</option>
+            </select>
+
+            <select name="type" id="type">
+              <option value="" disabled selected>Typ nieruchomości</option>
+              <option value="mieszkanie">Mieszkanie</option>
+              <option value="dom">Dom</option>
+              <option value="lokal">Lokal</option>
+              <option value="dzialka">Działka</option>
+            </select>
+
+            <select name="status" id="status">
+              <option value="" disabled selected>Stan nieruchomości</option>
+              <option value="nowe">Nowe</option>
+              <option value="uzywane">Używane</option>
+              <option value="do-remontu">Do remontu</option>
+              <option value="do-wykończenia">Do wykończenia</option>
+            </select>
+
+          </div>
+
+          <div class="searcher__more-wrapper">
+            <button class="searcher__more btn--secondary btn" type="button">
+              Więcej filtrów
+            </button>
+          </div>
+        </div>
+
+        <div class="searcher__search">
+          <button type="submit" class="searcher__button btn btn--primary">
+            Wyszukaj
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="searcher__display-filters scroll-animation">
+      <button class="filter__display--block active">
+       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+          <path
+            d="M4.35,2A2.384,2.384,0,0,0,2,4.35v4.5A2.384,2.384,0,0,0,4.35,11.2h4.5A2.384,2.384,0,0,0,11.2,8.85V4.35A2.384,2.384,0,0,0,8.85,2ZM4,4.35A.389.389,0,0,1,4.35,4h4.5a.389.389,0,0,1,.35.35v4.5a.389.389,0,0,1-.35.35H4.35A.389.389,0,0,1,4,8.85Z"
+            transform="translate(-2 -2)" fill-rule="evenodd" />
+          <path
+            d="M15.15,2A2.384,2.384,0,0,0,12.8,4.35v4.5a2.384,2.384,0,0,0,2.35,2.35h4.5A2.384,2.384,0,0,0,22,8.85V4.35A2.384,2.384,0,0,0,19.65,2ZM14.8,4.35A.389.389,0,0,1,15.15,4h4.5a.389.389,0,0,1,.35.35v4.5a.389.389,0,0,1-.35.35h-4.5a.389.389,0,0,1-.35-.35Z"
+            transform="translate(-2 -2)" fill-rule="evenodd" />
+          <path
+            d="M2,15.15A2.384,2.384,0,0,1,4.35,12.8h4.5a2.384,2.384,0,0,1,2.35,2.35v4.5A2.384,2.384,0,0,1,8.85,22H4.35A2.384,2.384,0,0,1,2,19.65Zm2.35-.35a.389.389,0,0,0-.35.35v4.5a.389.389,0,0,0,.35.35h4.5a.389.389,0,0,0,.35-.35v-4.5a.389.389,0,0,0-.35-.35Z"
+            transform="translate(-2 -3)" fill-rule="evenodd" />
+          <path
+            d="M15.15,12.8a2.384,2.384,0,0,0-2.35,2.35v4.5A2.384,2.384,0,0,0,15.15,22h4.5A2.384,2.384,0,0,0,22,19.65v-4.5a2.384,2.384,0,0,0-2.35-2.35Zm-.35,2.35a.389.389,0,0,1,.35-.35h4.5a.389.389,0,0,1,.35.35v4.5a.389.389,0,0,1-.35.35h-4.5a.389.389,0,0,1-.35-.35Z"
+            transform="translate(-2 -3)" fill-rule="evenodd" />
+        </svg>
+      </button>
+
+      <button class="filter__display--list">
+         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18.789" viewBox="0 0 22 18.789">
+          <path d="M22,11H2a.9.9,0,1,0,0,1.789H22A.9.9,0,1,0,22,11Z" transform="translate(-1 -11)" />
+          <path d="M22,11H2a.9.9,0,1,0,0,1.789H22A.9.9,0,1,0,22,11Z" transform="translate(-1 6)" />
+          <path d="M22,11H2a.9.9,0,1,0,0,1.789H22A.9.9,0,1,0,22,11Z" transform="translate(-1 0.333)" />
+          <path d="M22,11H2a.9.9,0,1,0,0,1.789H22A.9.9,0,1,0,22,11Z" transform="translate(-1 -5.333)" />
+        </svg>
+      </button>
+    </div>
+
+    <div class="searcher__items searcher__items--block scroll-animation">
+
+      <div class="panel available">
+        <h3 class="panel__name">Mieszkanie F4/M25</h3>
+        <div class="panel__status">Dostępne</div>
+        <img src="imgs/plans/plan-04.jpg" alt="" class="panel__img">
+        <div class="panel__data">
+          <p>Powierzchnia:<br><span>55,68 m<sup>2</sup></span></p>
+          <p>Pokoje:<br><span>3</span></p>
+          <p>Piętro:<br><span>2</span></p>
+          <p>Cena<br><span>od 300 000 zł</span></p>
+        </div>
+        <a href="/mieszkanie.php" class="panel__btn btn btn--primary">Zobacz więcej</a>
+      </div>
+
+      <div class="panel available">
+        <h3 class="panel__name">Mieszkanie F4/M25</h3>
+        <div class="panel__status">Dostępne</div>
+        <img src="imgs/plans/plan-04.jpg" alt="" class="panel__img">
+        <div class="panel__data">
+          <p>Powierzchnia:<br><span>55,68 m<sup>2</sup></span></p>
+          <p>Pokoje:<br><span>3</span></p>
+          <p>Piętro:<br><span>2</span></p>
+          <p>Cena<br><span>od 300 000 zł</span></p>
+        </div>
+        <a href="/mieszkanie.php" class="panel__btn btn btn--primary">Zobacz więcej</a>
+      </div>
+
+      <div class="panel available">
+        <h3 class="panel__name">Mieszkanie F4/M25</h3>
+        <div class="panel__status">Dostępne</div>
+        <img src="imgs/plans/plan-04.jpg" alt="" class="panel__img">
+        <div class="panel__data">
+          <p>Powierzchnia:<br><span>55,68 m<sup>2</sup></span></p>
+          <p>Pokoje:<br><span>3</span></p>
+          <p>Piętro:<br><span>2</span></p>
+          <p>Cena<br><span>od 300 000 zł</span></p>
+        </div>
+        <a href="/mieszkanie.php" class="panel__btn btn btn--primary">Zobacz więcej</a>
+      </div>
+
+      <div class="panel available">
+        <h3 class="panel__name">Mieszkanie F4/M25</h3>
+        <div class="panel__status">Dostępne</div>
+        <img src="imgs/plans/plan-04.jpg" alt="" class="panel__img">
+        <div class="panel__data">
+          <p>Powierzchnia:<br><span>55,68 m<sup>2</sup></span></p>
+          <p>Pokoje:<br><span>3</span></p>
+          <p>Piętro:<br><span>2</span></p>
+          <p>Cena<br><span>od 300 000 zł</span></p>
+        </div>
+        <a href="/mieszkanie.php" class="panel__btn btn btn--primary">Zobacz więcej</a>
+      </div>
+
+      <div class="panel available">
+        <h3 class="panel__name">Mieszkanie F4/M25</h3>
+        <div class="panel__status">Dostępne</div>
+        <img src="imgs/plans/plan-04.jpg" alt="" class="panel__img">
+        <div class="panel__data">
+          <p>Powierzchnia:<br><span>55,68 m<sup>2</sup></span></p>
+          <p>Pokoje:<br><span>3</span></p>
+          <p>Piętro:<br><span>2</span></p>
+          <p>Cena<br><span>od 300 000 zł</span></p>
+        </div>
+        <a href="/mieszkanie.php" class="panel__btn btn btn--primary">Zobacz więcej</a>
+      </div>
+
+      <div class="panel available">
+        <h3 class="panel__name">Mieszkanie F4/M25</h3>
+        <div class="panel__status">Dostępne</div>
+        <img src="imgs/plans/plan-04.jpg" alt="" class="panel__img">
+        <div class="panel__data">
+          <p>Powierzchnia:<br><span>55,68 m<sup>2</sup></span></p>
+          <p>Pokoje:<br><span>3</span></p>
+          <p>Piętro:<br><span>2</span></p>
+          <p>Cena<br><span>od 300 000 zł</span></p>
+        </div>
+        <a href="/mieszkanie.php" class="panel__btn btn btn--primary">Zobacz więcej</a>
+      </div>
+
+      <div class="panel reserved">
+        <h3 class="panel__name">Mieszkanie F4/M25</h3>
+        <div class="panel__status">Rezerwacja</div>
+        <img src="imgs/plans/plan-04.jpg" alt="" class="panel__img">
+        <div class="panel__data">
+          <p>Powierzchnia:<br><span>55,68 m<sup>2</sup></span></p>
+          <p>Pokoje:<br><span>3</span></p>
+          <p>Piętro:<br><span>2</span></p>
+          <p>Cena<br><span>od 300 000 zł</span></p>
+        </div>
+        <a href="/mieszkanie.php" class="panel__btn btn btn--primary">Zobacz więcej</a>
+      </div>
+
+      <div class="panel sold">
+        <h3 class="panel__name">Mieszkanie F4/M25</h3>
+        <div class="panel__status">Sprzedane</div>
+        <img src="imgs/plans/plan-04.jpg" alt="" class="panel__img">
+        <div class="panel__data">
+          <p>Powierzchnia:<br><span>55,68 m<sup>2</sup></span></p>
+          <p>Pokoje:<br><span>3</span></p>
+          <p>Piętro:<br><span>2</span></p>
+          <p>Cena<br><span>od 300 000 zł</span></p>
+        </div>
+        <a href="/mieszkanie.php" class="panel__btn btn btn--primary">Zobacz więcej</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+
+</main>
+
+<footer class="footer">
+  <div class="wrapper">
+
+    <div class="footer__left">
+      <img src="imgs/logos/logo-white.svg" alt="" class="footer__logo">
+      <div class="footer__description">
+        Znamy naszych klientów i wiemy, że mają różnorodne potrzeby. Dlatego Greenwood Park zaprojektowaliśmy w taki
+        sposób, aby każdy znalazł mieszkanie idealne dla siebie.
+      </div>
+    </div>
+
+    <div class="footer__right">
+
+      <nav class="footer__nav">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="/mieszkania.html">Mieszkania</a></li>
+          <li><a href="/o-inwestorze.html">O inwestorze</a></li>
+          <li><a href="/galeria.html">Galeria</a></li>
+          <li><a href="/lokalizacja.html">Lokalizacja</a></li>
+          <li><a href="/kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__nav footer__contact">
+        <h4>Kontakt</h4>
+        <p>Biuro sprzedaży</p>
+        <a href="tel:123456789">123 456 789</a>
+        <a href="mailto: biuro@greenwoodpark.pl">biuro@greenwoodpark.pl</a>
+        <p>ul. Jeździecka 20</p>
+      </nav>
+    </div>
+
+  </div>
+</footer>
+
+<script src="js/bundle.min.js" defer></script>
+
+</body>
+
+</html>

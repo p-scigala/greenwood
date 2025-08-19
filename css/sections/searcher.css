@@ -109,6 +109,7 @@
   flex-wrap: wrap;
   gap: 29px;
   margin-bottom: 90px;
+  z-index: -1;
 }
 
 .searcher__display-filters {

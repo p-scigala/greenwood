@@ -1,0 +1,450 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greenwood</title>
+  <link rel="stylesheet" href="style.min.css">
+  <link rel="icon" href="imgs/favicon/cropped-favicon-32x32.png" type="image/x-icon">
+  <link rel="icon" href="imgs/favicon/cropped-favicon-32x32.png" sizes="32x32">
+  <link rel="icon" href="imgs/favicon/cropped-favicon-192x192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="imgs/favicon/cropped-favicon-180x180.png">
+  <meta name="msapplication-TileImage" content="imgs/favicon/cropped-favicon-270x270.png">
+  <script src="js/jquery/jquery-3.7.1.min.js"></script>
+  <script src="js/slick/slick.min.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="wrapper">
+
+      <h1 class="header__logo">
+        <a href="/">
+          <img src="imgs/logos/logo.svg" alt="GREENWOOD PARK" class="header__logo-img">
+        </a>
+      </h1>
+
+      <div class="header__menu">
+
+        <nav class="header__nav">
+          <ul>
+            <li><a href="/">Strona główna</a></li>
+            <li><a href="/mieszkania.html">Mieszkania</a></li>
+            <li><a href="/o-inwestycji.html">O inwestycji</a></li>
+            <li><a href="/galeria.html">Galeria</a></li>
+            <li><a href="/lokalizacja.html">Lokalizacja</a></li>
+            <li><a href="/kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+
+        <a href="tel:+48123456789" class="header__phone btn btn--primary">123 456 789</a>
+
+        <div class="header__socials socials">
+          <div class="socials__icons">
+            <a href="#" class="socials__icon">
+              <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="31.929" height="31.929"
+                viewBox="0 0 31.929 31.929">
+                <path d="M213.111,210.056A3.056,3.056,0,1,1,210.056,207,3.056,3.056,0,0,1,213.111,210.056Zm0,0"
+                  transform="translate(-194.091 -194.091)" fill="#fff" />
+                <path
+                  d="M150.146,137.6a3.036,3.036,0,0,0-1.74-1.74,5.072,5.072,0,0,0-1.7-.315c-.967-.044-1.257-.054-3.7-.054s-2.738.009-3.7.053a5.075,5.075,0,0,0-1.7.316,3.037,3.037,0,0,0-1.74,1.74,5.074,5.074,0,0,0-.315,1.7c-.044.967-.054,1.256-.054,3.7s.01,2.738.054,3.7a5.072,5.072,0,0,0,.315,1.7,3.036,3.036,0,0,0,1.74,1.74,5.066,5.066,0,0,0,1.7.316c.967.044,1.256.053,3.7.053s2.738-.009,3.7-.053a5.066,5.066,0,0,0,1.7-.316,3.036,3.036,0,0,0,1.74-1.74,5.076,5.076,0,0,0,.316-1.7c.044-.967.053-1.257.053-3.7s-.009-2.738-.053-3.7A5.066,5.066,0,0,0,150.146,137.6ZM143,147.711A4.707,4.707,0,1,1,147.707,143,4.707,4.707,0,0,1,143,147.711Zm4.893-8.5a1.1,1.1,0,1,1,1.1-1.1A1.1,1.1,0,0,1,147.894,139.211Zm0,0"
+                  transform="translate(-127.036 -127.039)" fill="#fff" />
+                <path
+                  d="M15.964,0A15.964,15.964,0,1,0,31.929,15.964,15.966,15.966,0,0,0,15.964,0Zm9.112,19.744a6.726,6.726,0,0,1-.426,2.225,4.687,4.687,0,0,1-2.681,2.681,6.73,6.73,0,0,1-2.225.426c-.978.045-1.29.055-3.779.055s-2.8-.011-3.78-.055A6.73,6.73,0,0,1,9.96,24.65a4.687,4.687,0,0,1-2.681-2.681,6.724,6.724,0,0,1-.426-2.225c-.045-.978-.056-1.29-.056-3.78s.01-2.8.055-3.779A6.726,6.726,0,0,1,7.278,9.96,4.69,4.69,0,0,1,9.96,7.279a6.732,6.732,0,0,1,2.225-.426c.978-.045,1.29-.055,3.779-.055s2.8.011,3.779.056a6.733,6.733,0,0,1,2.225.426A4.689,4.689,0,0,1,24.65,9.96a6.725,6.725,0,0,1,.426,2.225c.045.978.055,1.29.055,3.779S25.121,18.766,25.076,19.744Zm0,0"
+                  fill="#fff" />
+              </svg>
+            </a>
+            <a href="#" class="socials__icon">
+              <svg id="fb" xmlns="http://www.w3.org/2000/svg" width="31.929" height="31.929"
+                viewBox="0 0 31.929 31.929">
+                <g>
+                  <path
+                    d="M15.964,0A15.964,15.964,0,1,0,31.929,15.964,15.964,15.964,0,0,0,15.964,0Zm4.541,10.39c0,.3-.126.42-.42.42-.565,0-1.13,0-1.693.023s-.87.279-.87.868c-.013.63,0,1.248,0,1.891h2.418c.344,0,.462.118.462.464v2.533c0,.342-.109.45-.456.452H17.5v6.835c0,.365-.113.481-.475.481H14.4c-.317,0-.441-.124-.441-.441V17.05H11.868c-.328,0-.445-.12-.445-.45V14.053c0-.328.124-.452.447-.452h2.086V11.763A4.6,4.6,0,0,1,14.53,9.4a3.468,3.468,0,0,1,1.876-1.559,4.6,4.6,0,0,1,1.607-.277h2.065c.3,0,.42.13.42.42.011.809.011,1.609.008,2.407Z"
+                    fill="#fff" />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="header__menu-toggle">
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+<main class="main" id="page-lokalizacja">
+
+  <div class="breadcrumb wrapper">
+    <a href="#">Strona główna</a>
+    <a href="#">Lokalizacja</a>
+  </div>
+
+  <section class="text-img">
+
+  <img src="imgs/decor-03.png" alt="" class="decor-03 decor--right decor--top" />
+
+  <div class="wrapper">
+
+    <div class="text-img__content">
+      <h2 class="text-img__title scroll-animation">Lokalizacja</h2>
+      <div class="text-img__description scroll-animation delay-2">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua.</p>
+        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+          est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+      </div>
+    </div>
+
+    <div class="text-img__image scroll-animation delay-3">
+      <div class="text-img__image-inner slider slider--with-bar">
+        <img src="imgs/photos/photo-02.jpg" alt="GREENWOOD PARK" class="text-img__img">
+      </div>
+    </div>
+
+  </div>
+
+</section>  <section class="icons">
+  <div class="wrapper">
+    <div class="icons__list scroll-animation delay-3">
+
+      <div class="icon">
+        <div class="icon__wrapper">
+          <img src="imgs/icons/education-black.svg" alt="" class="icon__img">
+        </div>
+        <span class="icon__text">Szkoły<br>i przedszkola</span>
+      </div>
+
+      <div class="icon">
+        <div class="icon__wrapper">
+          <img src="imgs/icons/motorway-black.svg" alt="" class="icon__img">
+        </div>
+        <span class="icon__text">Bliskość<br>trasy S2</span>
+      </div>
+
+      <div class="icon">
+        <div class="icon__wrapper">
+          <img src="imgs/icons/park-black.svg" alt="" class="icon__img">
+        </div>
+        <span class="icon__text">W otulinie Mazowieckiego<br>Parku Krajobrazowego</span>
+      </div>
+
+    </div>
+  </div>
+</section>  <section class="text-img text-img--left">
+
+  <img src="imgs/decor-03.png" alt="" class="decor-03 decor--right decor--top" />
+
+  <div class="wrapper">
+
+    <div class="text-img__content">
+      <h2 class="text-img__title scroll-animation">Szybki dojazd<br>do centrum</h2>
+      <div class="text-img__description scroll-animation delay-2">
+        <p>Mimo spokojnego otoczenia, osiedle Greenwood przy ul. Jeździeckiej zapewnia wygodne połączenia z resztą
+          miasta – zarówno dla kierowców, jak i osób korzystających z komunikacji miejskiej.</p>
+        <p>W okolicy znajdują się liczne przystanki autobusowe i tramwajowe, a także węzły drogowe umożliwiające szybki
+          dojazd do centrum Warszawy.</p>
+      </div>
+    </div>
+
+    <div class="text-img__image scroll-animation delay-3">
+      <div class="text-img__image-inner">
+        <img src="imgs/photos/photo-23.jpg" alt="GREENWOOD PARK" class="text-img__img">
+      </div>
+    </div>
+
+  </div>
+
+</section>  <section class="map">
+
+  <img src="imgs/decor-03.png" alt="" class="decor-03 decor--right decor--top" />
+
+  <div class="wrapper">
+
+    <div class="map__content">
+      <div class="map__walk scroll-animation">
+
+        <div class="icon">
+          <div class="icon__wrapper">
+            <img src="imgs/icons/walk-black.svg" alt="" class="icon__img">
+          </div>
+          <span class="icon__text">Park linowy<i>2 minuty</i></span>
+        </div>
+
+        <div class="icon">
+          <div class="icon__wrapper">
+            <img src="imgs/icons/walk-black.svg" alt="" class="icon__img">
+          </div>
+          <span class="icon__text">Supermarket<i>1 minuta</i></span>
+        </div>
+
+        <div class="icon">
+          <div class="icon__wrapper">
+            <img src="imgs/icons/walk-black.svg" alt="" class="icon__img">
+          </div>
+          <span class="icon__text">Szkoła i przedszkole<i>2 minuty</i></span>
+        </div>
+
+        <div class="icon">
+          <div class="icon__wrapper">
+            <img src="imgs/icons/walk-black.svg" alt="" class="icon__img">
+          </div>
+          <span class="icon__text">Przystanek autobusowy<i>5 minut</i></span>
+        </div>
+
+      </div>
+
+      <div class="map__car scroll-animation delay-1">
+
+        <div class="icon">
+          <div class="icon__wrapper">
+            <img src="imgs/icons/car-black.svg" alt="" class="icon__img">
+          </div>
+          <span class="icon__text">Park Krajobrazowy<i>5 minut</i></span>
+        </div>
+
+        <div class="icon">
+          <div class="icon__wrapper">
+            <img src="imgs/icons/car-black.svg" alt="" class="icon__img">
+          </div>
+          <span class="icon__text">Rolkostrada Wesoła<i>5 minut</i></span>
+        </div>
+
+        <div class="icon">
+          <div class="icon__wrapper">
+            <img src="imgs/icons/car-black.svg" alt="" class="icon__img">
+          </div>
+          <span class="icon__text">Zalew Zegrzyński<i>5 minut</i></span>
+        </div>
+
+        <div class="icon">
+          <div class="icon__wrapper">
+            <img src="imgs/icons/car-black.svg" alt="" class="icon__img">
+          </div>
+          <span class="icon__text">Centrum Warszawy<i>20 minut</i></span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="map__image scroll-animation delay-2">
+      <div class="map__image-inner slider slider--with-bar">
+        <img src="imgs/map.jpg" alt="GREENWOOD PARK" class="map__img">
+      </div>
+    </div>
+
+  </div>
+
+</section>  <section class="steps">
+
+  <img src="imgs/decor-03.png" alt="" class="decor-03 decor--left decor--bottom" />
+
+  <div class="wrapper--x-small">
+
+    <h2 class="steps__title scroll-animation">Blisko, wygodnie,<br>komfortowo</h2>
+    <p class="steps__subtitle scroll-animation delay-1">W promieniu kilku minut od ul. Jeździeckiej znajdują się sklepy
+      spożywcze, drogerie,
+      apteki, restauracje i inne punkty usługowe. Życie codzienne staje się prostsze, gdy wszystko jest na wyciągnięcie
+      ręki.</p>
+
+    <div class="steps__list">
+
+      <div class="steps__item scroll-animation">
+        <img src="imgs/photos/photo-24.jpg" alt="" class="steps__img">
+        <div class="steps__content">
+          <h3 class="steps__name">
+            <span class="steps__name-number">01</span>
+            <span class="steps__name-text">Szkoły i przedszkola<br>w zasięgu spaceru</span>
+          </h3>
+          <div class="steps__description">
+            <p>Rodziny z dziećmi docenią bliskość sprawdzonych placówek edukacyjnych w okolicy ul. Jeździeckiej.</p>
+            <p>Znajdują się tu zarówno przedszkola, jak i szkoły podstawowe i średnie – bez konieczności codziennego
+              stania w korkach.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="steps__item scroll-animation">
+        <img src="imgs/photos/photo-25.jpg" alt="" class="steps__img">
+        <div class="steps__content">
+          <h3 class="steps__name">
+            <span class="steps__name-number">02</span>
+            <span class="steps__name-text">Zielona okolica - przestrzeń<br>do odpoczynku i rekreacji</span>
+          </h3>
+          <div class="steps__description">
+            <p>Greenwood to nie tylko nazwa – to styl życia blisko natury.</p>
+            <p>Otoczenie osiedla przy ul. Jeździeckiej wypełniają tereny zielone, parki, skwery oraz ścieżki rowerowe.
+              Idealne miejsce na rodzinne spacery, jogging czy wycieczki rowerowe.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="steps__item scroll-animation">
+        <img src="imgs/photos/photo-26.jpg" alt="" class="steps__img">
+        <div class="steps__content">
+          <h3 class="steps__name">
+            <span class="steps__name-number">03</span>
+            <span class="steps__name-text">Bezpieczna okolica z dostępem<br>do opieki zdrowotnej</span>
+          </h3>
+          <div class="steps__description">
+            <p>W sąsiedztwie ul. Jeździeckiej znajdziesz przychodnie, gabinety lekarskie, apteki oraz inne placówki
+              zdrowotne.</p>
+            <p>O komfort i bezpieczeństwo dla całej rodziny – tu wszystko masz pod ręką.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>  <section class="gallery-slider">
+
+  <div class="wrapper">
+    <h2 class="gallery-slider__title scroll-animation">Galeria inwestycji <br>GREENWOOD PARK</h2>
+  </div>
+
+  <div class="gallery-slider__slider slider slider--with-bar scroll-animation delay-1">
+
+    <button class="gallery-slider__slide" data-src="imgs/photos/photo-01.jpg">
+      <img src="imgs/photos/photo-01.jpg" alt="" class="gallery-slider__image">
+    </button>
+
+    <button class="gallery-slider__slide" data-src="imgs/photos/photo-02.jpg">
+      <img src="imgs/photos/photo-02.jpg" alt="" class="gallery-slider__image">
+    </button>
+
+    <button class="gallery-slider__slide" data-src="imgs/photos/photo-03.jpg">
+      <img src="imgs/photos/photo-03.jpg" alt="" class="gallery-slider__image">
+    </button>
+
+    <button class="gallery-slider__slide" data-src="imgs/photos/photo-04.jpg">
+      <img src="imgs/photos/photo-04.jpg" alt="" class="gallery-slider__image">
+    </button>
+
+  </div>
+
+  <div class="wrapper gallery-slider__pagination-wrapper scroll-animation delay-3">
+    <div class="gallery-slider__pagination pagination-bar">
+      <div class="pagination-bar__progress">
+        <div class="pagination-bar__progress-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-slider__button scroll-animation delay-2">
+    <a href="/galeria.php" class="btn btn--primary">Zobacz więcej</a>
+  </div>
+
+</section>  <section class="contact-form">
+
+  <h2 class="contact-form__title scroll-animation">Skontaktuj<br>się z nami</h2>
+
+  <div class="wrapper--medium contact-form__wrapper">
+
+    <div class="contact-form__image scroll-animation delay-2">
+      <img src="imgs/photos/photo-19.jpg" alt="" class="contact-form__img" />
+    </div>
+
+    <div class="contact-form__content scroll-animation">
+      <h3 class="contact-form__form-title">Formularz kontaktowy</h3>
+      <form class="form" action="">
+        <div class="input input--text">
+          <label for="name">Imię</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="input input--text">
+          <label for="email">Adres e-mail</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="input input--text">
+          <label for="phone">Telefon</label>
+          <input type="text" id="phone" name="phone" />
+        </div>
+        <div class="input input--textarea">
+          <label for="message">Wiadomość</label>
+          <textarea id="message" name="message"
+            placeholder="Proszę o więcej szczegółów dotyczących mieszkania nr... oraz propozycję terminu spotkania"></textarea>
+        </div>
+        <div class="form__agreements">
+          <div class="input input--checkbox">
+            <input type="checkbox" id="privacy" name="privacy" />
+            <label for="privacy">Wyrażam zgodę na przetwarzanie przez Greenwood II sp. z o.o. z siedzibą przy ul.
+              Henryka Dembińskiego 13, 01-644 w Warszawie, moich danych osobowych zawartych w niniejszym formularzu w
+              celu umożliwienia kontaktu oraz przekazywania materiałów marketingowych i promocyjnych dotyczących
+              inwestycji realizowanych przez Spółkę.</label>
+          </div>
+          <div class="input input--checkbox">
+            <input type="checkbox" id="privacy-2" name="privacy-2" />
+            <label for="privacy-2">Wyrażam zgodę na otrzymywanie od Greenwood II sp. z o.o. drogą elektroniczną na
+              wskazany przeze mnie adres e-mail informacji handlowej dotyczących produktów oferowanych przez Greenwood
+              II sp. z o.o. w rozumieniu art. 10 ust. 1 Ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą
+              elektroniczną.</label>
+          </div>
+          <div class="input input--checkbox">
+            <input type="checkbox" id="privacy-3" name="privacy-3" />
+            <label for="privacy-3">Wyrażam zgodę na otrzymywanie od Greenwood II sp. z o.o. drogą elektroniczną na
+              wskazany przeze mnie adres e-mail informacji handlowej dotyczących produktów oferowanych przez Greenwood
+              II sp. z o.o. w rozumieniu art. 10 ust. 1 Ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą
+              elektroniczną.</label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn--primary form__submit">Wyślij</button>
+      </form>
+    </div>
+
+  </div>
+
+</section>
+</main>
+
+</main>
+
+<footer class="footer">
+  <div class="wrapper">
+
+    <div class="footer__left">
+      <img src="imgs/logos/logo-white.svg" alt="" class="footer__logo">
+      <div class="footer__description">
+        Znamy naszych klientów i wiemy, że mają różnorodne potrzeby. Dlatego Greenwood Park zaprojektowaliśmy w taki
+        sposób, aby każdy znalazł mieszkanie idealne dla siebie.
+      </div>
+    </div>
+
+    <div class="footer__right">
+
+      <nav class="footer__nav">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="/mieszkania.html">Mieszkania</a></li>
+          <li><a href="/o-inwestorze.html">O inwestorze</a></li>
+          <li><a href="/galeria.html">Galeria</a></li>
+          <li><a href="/lokalizacja.html">Lokalizacja</a></li>
+          <li><a href="/kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__nav footer__contact">
+        <h4>Kontakt</h4>
+        <p>Biuro sprzedaży</p>
+        <a href="tel:123456789">123 456 789</a>
+        <a href="mailto: biuro@greenwoodpark.pl">biuro@greenwoodpark.pl</a>
+        <p>ul. Jeździecka 20</p>
+      </nav>
+    </div>
+
+  </div>
+</footer>
+
+<script src="js/bundle.min.js" defer></script>
+
+</body>
+
+</html>

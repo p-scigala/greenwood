@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greenwood</title>
+  <link rel="stylesheet" href="style.min.css">
+  <link rel="icon" href="imgs/favicon/cropped-favicon-32x32.png" type="image/x-icon">
+  <link rel="icon" href="imgs/favicon/cropped-favicon-32x32.png" sizes="32x32">
+  <link rel="icon" href="imgs/favicon/cropped-favicon-192x192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="imgs/favicon/cropped-favicon-180x180.png">
+  <meta name="msapplication-TileImage" content="imgs/favicon/cropped-favicon-270x270.png">
+  <script src="js/jquery/jquery-3.7.1.min.js"></script>
+  <script src="js/slick/slick.min.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="wrapper">
+
+      <h1 class="header__logo">
+        <a href="/">
+          <img src="imgs/logos/logo.svg" alt="GREENWOOD PARK" class="header__logo-img">
+        </a>
+      </h1>
+
+      <div class="header__menu">
+
+        <nav class="header__nav">
+          <ul>
+            <li><a href="/">Strona główna</a></li>
+            <li><a href="/mieszkania.html">Mieszkania</a></li>
+            <li><a href="/o-inwestycji.html">O inwestycji</a></li>
+            <li><a href="/galeria.html">Galeria</a></li>
+            <li><a href="/lokalizacja.html">Lokalizacja</a></li>
+            <li><a href="/kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+
+        <a href="tel:+48123456789" class="header__phone btn btn--primary">123 456 789</a>
+
+        <div class="header__socials socials">
+          <div class="socials__icons">
+            <a href="#" class="socials__icon">
+              <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="31.929" height="31.929"
+                viewBox="0 0 31.929 31.929">
+                <path d="M213.111,210.056A3.056,3.056,0,1,1,210.056,207,3.056,3.056,0,0,1,213.111,210.056Zm0,0"
+                  transform="translate(-194.091 -194.091)" fill="#fff" />
+                <path
+                  d="M150.146,137.6a3.036,3.036,0,0,0-1.74-1.74,5.072,5.072,0,0,0-1.7-.315c-.967-.044-1.257-.054-3.7-.054s-2.738.009-3.7.053a5.075,5.075,0,0,0-1.7.316,3.037,3.037,0,0,0-1.74,1.74,5.074,5.074,0,0,0-.315,1.7c-.044.967-.054,1.256-.054,3.7s.01,2.738.054,3.7a5.072,5.072,0,0,0,.315,1.7,3.036,3.036,0,0,0,1.74,1.74,5.066,5.066,0,0,0,1.7.316c.967.044,1.256.053,3.7.053s2.738-.009,3.7-.053a5.066,5.066,0,0,0,1.7-.316,3.036,3.036,0,0,0,1.74-1.74,5.076,5.076,0,0,0,.316-1.7c.044-.967.053-1.257.053-3.7s-.009-2.738-.053-3.7A5.066,5.066,0,0,0,150.146,137.6ZM143,147.711A4.707,4.707,0,1,1,147.707,143,4.707,4.707,0,0,1,143,147.711Zm4.893-8.5a1.1,1.1,0,1,1,1.1-1.1A1.1,1.1,0,0,1,147.894,139.211Zm0,0"
+                  transform="translate(-127.036 -127.039)" fill="#fff" />
+                <path
+                  d="M15.964,0A15.964,15.964,0,1,0,31.929,15.964,15.966,15.966,0,0,0,15.964,0Zm9.112,19.744a6.726,6.726,0,0,1-.426,2.225,4.687,4.687,0,0,1-2.681,2.681,6.73,6.73,0,0,1-2.225.426c-.978.045-1.29.055-3.779.055s-2.8-.011-3.78-.055A6.73,6.73,0,0,1,9.96,24.65a4.687,4.687,0,0,1-2.681-2.681,6.724,6.724,0,0,1-.426-2.225c-.045-.978-.056-1.29-.056-3.78s.01-2.8.055-3.779A6.726,6.726,0,0,1,7.278,9.96,4.69,4.69,0,0,1,9.96,7.279a6.732,6.732,0,0,1,2.225-.426c.978-.045,1.29-.055,3.779-.055s2.8.011,3.779.056a6.733,6.733,0,0,1,2.225.426A4.689,4.689,0,0,1,24.65,9.96a6.725,6.725,0,0,1,.426,2.225c.045.978.055,1.29.055,3.779S25.121,18.766,25.076,19.744Zm0,0"
+                  fill="#fff" />
+              </svg>
+            </a>
+            <a href="#" class="socials__icon">
+              <svg id="fb" xmlns="http://www.w3.org/2000/svg" width="31.929" height="31.929"
+                viewBox="0 0 31.929 31.929">
+                <g>
+                  <path
+                    d="M15.964,0A15.964,15.964,0,1,0,31.929,15.964,15.964,15.964,0,0,0,15.964,0Zm4.541,10.39c0,.3-.126.42-.42.42-.565,0-1.13,0-1.693.023s-.87.279-.87.868c-.013.63,0,1.248,0,1.891h2.418c.344,0,.462.118.462.464v2.533c0,.342-.109.45-.456.452H17.5v6.835c0,.365-.113.481-.475.481H14.4c-.317,0-.441-.124-.441-.441V17.05H11.868c-.328,0-.445-.12-.445-.45V14.053c0-.328.124-.452.447-.452h2.086V11.763A4.6,4.6,0,0,1,14.53,9.4a3.468,3.468,0,0,1,1.876-1.559,4.6,4.6,0,0,1,1.607-.277h2.065c.3,0,.42.13.42.42.011.809.011,1.609.008,2.407Z"
+                    fill="#fff" />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="header__menu-toggle">
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+<main class="main" id="page-kontakt">
+
+  <div class="breadcrumb wrapper">
+    <a href="#">Strona główna</a>
+    <a href="#">Kontakt</a>
+  </div>
+
+  <section class="contact">
+
+  <img src="imgs/decor-03.png" alt="" class="decor-03 decor--left decor--bottom" />
+
+  <div class="wrapper contact__wrapper">
+
+    <div class="contact__data">
+      <h2 class="contact-data__title scroll-animation">Kontakt</h2>
+      <p class="contact-data__description scroll-animation delay-1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+      <div class="contact-data__icons scroll-animation delay-2">
+        <p>Biuro sprzedaży</p>
+        <p><a href="tel: 123456789"><svg xmlns="http://www.w3.org/2000/svg" width="20.558" height="20.558" viewBox="0 0 20.558 20.558">
+  <g id="phone-call_2_" data-name="phone-call (2)" transform="translate(0)">
+    <g id="Group_2452" data-name="Group 2452" transform="translate(0 0)">
+      <path id="Path_13472" data-name="Path 13472" d="M17.546,3.009a10.279,10.279,0,1,0,3.012,7.267A10.279,10.279,0,0,0,17.546,3.009ZM15.567,14.318h0v0l-.521.517a2.741,2.741,0,0,1-2.587.74,9.108,9.108,0,0,1-2.645-1.185,12.221,12.221,0,0,1-2.087-1.682,12.315,12.315,0,0,1-1.559-1.891A9.593,9.593,0,0,1,5,8.443a2.741,2.741,0,0,1,.685-2.8l.61-.61a.435.435,0,0,1,.615,0h0L8.833,6.96a.435.435,0,0,1,0,.615h0L7.7,8.707a.922.922,0,0,0-.1,1.2,13.223,13.223,0,0,0,1.353,1.58,13.142,13.142,0,0,0,1.782,1.5.929.929,0,0,0,1.185-.1l1.093-1.11a.435.435,0,0,1,.615,0h0L15.565,13.7A.435.435,0,0,1,15.567,14.318Z" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>
+123 456 789</a></p>
+        <p><a href="mailto:biuro@greenwoodpark.pl"><svg xmlns="http://www.w3.org/2000/svg" width="20.558" height="20.558" viewBox="0 0 20.558 20.558">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(0)">
+    <g id="message" transform="translate(0)">
+      <path id="Path_13471" data-name="Path 13471" d="M10.279,0A10.279,10.279,0,1,0,20.558,10.279,10.279,10.279,0,0,0,10.279,0ZM5.858,6.311H14.7a1.193,1.193,0,0,1,.781.289L10.3,9.757,5.461,6.379a1.2,1.2,0,0,1,.4-.067ZM15.9,13.046a1.2,1.2,0,0,1-1.2,1.2H5.858a1.2,1.2,0,0,1-1.2-1.2V7.512a1.191,1.191,0,0,1,.126-.535l5.244,3.664a.438.438,0,0,0,.479.015l5.386-3.276a1.221,1.221,0,0,1,.008.134Z"/>
+    </g>
+  </g>
+</svg>
+biuro@greenwoodpark.pl</a>
+        </p>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="20.558" height="20.558" viewBox="0 0 20.558 20.558">
+  <path
+    d="M10.279,20.558A10.279,10.279,0,1,1,20.558,10.279,10.28,10.28,0,0,1,10.279,20.558Zm0-16.965A5.091,5.091,0,0,1,15.37,8.684c0,2.812-5.091,8.28-5.091,8.28S5.188,11.5,5.188,8.684A5.091,5.091,0,0,1,10.279,3.593Zm0,3.068A1.931,1.931,0,1,1,8.348,8.592,1.931,1.931,0,0,1,10.279,6.662Z"
+    fill-rule="evenodd" />
+</svg>ul. Jeździecka 20</p>
+      </div>
+    </div>
+
+    <div class="contact__form">
+
+      <div class="contact-form__image scroll-animation delay-2">
+        <img src="imgs/photos/photo-19.jpg" alt="" class="contact-form__img" />
+      </div>
+
+      <div class="contact-form__content scroll-animation">
+        <h3 class="contact-form__form-title">Formularz kontaktowy</h3>
+        <form class="form" action="">
+          <div class="input input--text">
+            <label for="name">Imię</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div class="input input--text">
+            <label for="email">Adres e-mail</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="input input--text">
+            <label for="phone">Telefon</label>
+            <input type="text" id="phone" name="phone" />
+          </div>
+          <div class="input input--textarea">
+            <label for="message">Wiadomość</label>
+            <textarea id="message" name="message"
+              placeholder="Proszę o więcej szczegółów dotyczących mieszkania nr... oraz propozycję terminu spotkania"></textarea>
+          </div>
+          <div class="form__agreements">
+            <div class="input input--checkbox">
+              <input type="checkbox" id="privacy" name="privacy" />
+              <label for="privacy">Wyrażam zgodę na przetwarzanie przez Greenwood II sp. z o.o. z siedzibą przy ul.
+                Henryka Dembińskiego 13, 01-644 w Warszawie, moich danych osobowych zawartych w niniejszym formularzu w
+                celu umożliwienia kontaktu oraz przekazywania materiałów marketingowych i promocyjnych dotyczących
+                inwestycji realizowanych przez Spółkę.</label>
+            </div>
+            <div class="input input--checkbox">
+              <input type="checkbox" id="privacy-2" name="privacy-2" />
+              <label for="privacy-2">Wyrażam zgodę na otrzymywanie od Greenwood II sp. z o.o. drogą elektroniczną na
+                wskazany przeze mnie adres e-mail informacji handlowej dotyczących produktów oferowanych przez Greenwood
+                II sp. z o.o. w rozumieniu art. 10 ust. 1 Ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą
+                elektroniczną.</label>
+            </div>
+            <div class="input input--checkbox">
+              <input type="checkbox" id="privacy-3" name="privacy-3" />
+              <label for="privacy-3">Wyrażam zgodę na otrzymywanie od Greenwood II sp. z o.o. drogą elektroniczną na
+                wskazany przeze mnie adres e-mail informacji handlowej dotyczących produktów oferowanych przez Greenwood
+                II sp. z o.o. w rozumieniu art. 10 ust. 1 Ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą
+                elektroniczną.</label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn--primary form__submit">Wyślij</button>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+</main>
+
+</main>
+
+<footer class="footer">
+  <div class="wrapper">
+
+    <div class="footer__left">
+      <img src="imgs/logos/logo-white.svg" alt="" class="footer__logo">
+      <div class="footer__description">
+        Znamy naszych klientów i wiemy, że mają różnorodne potrzeby. Dlatego Greenwood Park zaprojektowaliśmy w taki
+        sposób, aby każdy znalazł mieszkanie idealne dla siebie.
+      </div>
+    </div>
+
+    <div class="footer__right">
+
+      <nav class="footer__nav">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="/mieszkania.html">Mieszkania</a></li>
+          <li><a href="/o-inwestorze.html">O inwestorze</a></li>
+          <li><a href="/galeria.html">Galeria</a></li>
+          <li><a href="/lokalizacja.html">Lokalizacja</a></li>
+          <li><a href="/kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__nav footer__contact">
+        <h4>Kontakt</h4>
+        <p>Biuro sprzedaży</p>
+        <a href="tel:123456789">123 456 789</a>
+        <a href="mailto: biuro@greenwoodpark.pl">biuro@greenwoodpark.pl</a>
+        <p>ul. Jeździecka 20</p>
+      </nav>
+    </div>
+
+  </div>
+</footer>
+
+<script src="js/bundle.min.js" defer></script>
+
+</body>
+
+</html>
