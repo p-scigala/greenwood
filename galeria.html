@@ -93,24 +93,9 @@
 
       <div class="gallery__categories scroll-animation delay-1">
 
-        <button class="gallery__category" data-category="filmy">
-          <img src="imgs/photos/thumb/photo-11.jpg" alt="GREENWOOD PARK">
-          <span>Filmy</span>
-        </button>
-
-        <button class="gallery__category" data-category="budowa-etap-3">
-          <img src="imgs/photos/thumb/photo-22.jpg" alt="GREENWOOD PARK">
-          <span>Budowa Etap III</span>
-        </button>
-
-        <button class="gallery__category" data-category="budowa-etap-2">
-          <img src="imgs/photos/thumb/photo-21.jpg" alt="GREENWOOD PARK">
-          <span>Budowa Etap II</span>
-        </button>
-
-        <button class="gallery__category" data-category="budowa-etap-1">
-          <img src="imgs/photos/thumb/photo-22.jpg" alt="GREENWOOD PARK">
-          <span>Budowa Etap I</span>
+        <button class="gallery__category" data-category="wizualizacje">
+          <img src="imgs/photos/thumb/photo-02.jpg" alt="GREENWOOD PARK">
+          <span>Wizualizacje</span>
         </button>
 
         <button class="gallery__category" data-category="wizualizacje-wnetrz">
@@ -118,9 +103,14 @@
           <span>Wizualizacje wnętrz</span>
         </button>
 
-        <button class="gallery__category" data-category="wizualizacje">
-          <img src="imgs/photos/thumb/photo-02.jpg" alt="GREENWOOD PARK">
-          <span>Wizualizacje</span>
+        <button class="gallery__category" data-category="budowa">
+          <img src="imgs/photos/thumb/photo-22.jpg" alt="GREENWOOD PARK">
+          <span>Postęp budowy</span>
+        </button>
+
+        <button class="gallery__category" data-category="filmy">
+          <img src="imgs/photos/thumb/photo-11.jpg" alt="GREENWOOD PARK">
+          <span>Filmy</span>
         </button>
 
       </div>
@@ -128,22 +118,29 @@
 
     <!-- possible types: image, video, iframe -->
 
-    <div class="gallery__items-wrapper" data-category="filmy">
+    <div class="gallery__items-wrapper" data-category="wizualizacje">
       <button class="gallery__back-button with-arrow with-arrow--left">Powrót</button>
-      <h2 class="gallery__title scroll-animation">Filmy</h2>
+      <h2 class="gallery__title scroll-animation">Wizualizacje</h2>
       <div class="gallery__items">
-        <div class="gallery__item" data-src="imgs/photos/photo-01.jpg" data-type="image"
-          data-thumb="imgs/photos/thumb/photo-01.jpg">
-        </div>
-        <div class="gallery__item" data-src="imgs/photos/photo-02.jpg" data-type="image"
-          data-thumb="imgs/photos/thumb/photo-02.jpg">
+        <div class="gallery__item" data-src="imgs/photos/photo-01.jpg" data-thumb="imgs/photos/thumb/photo-01.jpg"
+          data-type="image">
         </div>
       </div>
     </div>
 
-    <div class="gallery__items-wrapper" data-category="budowa-etap-3">
+    <div class="gallery__items-wrapper" data-category="wizualizacje-wnetrz">
       <button class="gallery__back-button with-arrow with-arrow--left">Powrót</button>
-      <h2 class="gallery__title scroll-animation">Budowa Etap III</h2>
+      <h2 class="gallery__title scroll-animation">Wizualizacje wnętrz</h2>
+      <div class="gallery__items">
+        <div class="gallery__item" data-src="imgs/photos/photo-01.jpg" data-thumb="imgs/photos/thumb/photo-01.jpg"
+          data-type="image">
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery__items-wrapper" data-category="budowa">
+      <button class="gallery__back-button with-arrow with-arrow--left">Powrót</button>
+      <h2 class="gallery__title scroll-animation">Postęp budowy</h2>
       <div class="gallery__items">
         <div class="gallery__item" data-src="imgs/photos/photo-01.jpg" data-thumb="imgs/photos/thumb/photo-01.jpg"
           data-type="image">
@@ -166,9 +163,20 @@
       </div>
     </div>
 
+    <div class="gallery__items-wrapper" data-category="filmy">
+      <button class="gallery__back-button with-arrow with-arrow--left">Powrót</button>
+      <h2 class="gallery__title scroll-animation">Filmy</h2>
+      <div class="gallery__items">
+        <div class="gallery__item" data-src="imgs/photos/photo-01.jpg" data-type="image"
+          data-thumb="imgs/photos/thumb/photo-01.jpg">
+        </div>
+        <div class="gallery__item" data-src="imgs/photos/photo-02.jpg" data-type="image"
+          data-thumb="imgs/photos/thumb/photo-02.jpg">
+        </div>
+      </div>
+    </div>
+
   </div>
-
-
 
 </section>
 </main>

@@ -25,7 +25,7 @@
     <?php include('imgs/decor-02.svg'); ?>
 
     <h2 class="hero__title scroll-animation">GREENWOOD PARK</h2>
-    <p class="hero__description scroll-animation delay-1">dodać ul. Jeździecka nr .......,Warszawa - Wesoła</p>
+    <p class="hero__description scroll-animation delay-1">ul. Jeździecka 24, Warszawa - Wesoła</p>
     <div class="searcher hero__searcher scroll-animation delay-2">
       <h3 class="searcher__title">Wyszukiwarka mieszkań</h3>
       <form class="searcher__form">
