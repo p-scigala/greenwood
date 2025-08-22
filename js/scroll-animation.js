@@ -69,7 +69,7 @@ function scrollAnimationInit() {
     });
   }, observerOptions);
 
- const observer2 = new IntersectionObserver((entries) => {
+  const observer2 = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add('active');

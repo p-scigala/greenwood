@@ -330,14 +330,14 @@ section.no-decor .decor-03 {
   color: var(--white);
 }
 
-.scroll-animation {
+.animate {
   transition: var(--transition-long);
   opacity: 0;
   visibility: hidden;
   transform: translateY(50px);
 }
 
-.scroll-animation.visible {
+.animate.visible {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);

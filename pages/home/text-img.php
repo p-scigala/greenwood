@@ -6,19 +6,19 @@
 
     <div class="text-img__content">
       <h2 class="text-img__title scroll-animation">Greenwood Park</h2>
-      <h3 class="text-img__subtitle scroll-animation delay-1">Osiedle Greenwood Park to nowa inwestycja powstająca w
-        Starej Miłosnej w Warszawie przy ulicy Jeździeckiej realizowana przez spółkę Greenwood.</h3>
+      <h3 class="text-img__subtitle scroll-animation delay-1">Twoje miejsce w sercu natury</h3>
       <div class="text-img__description scroll-animation delay-2">
-        <p>To wymarzona lokalizacja dla osób szukających ciszy i spokoju a
-          jednocześnie z wygodnym dojazdem do centrum Warszawy. Łączy zalety spokojnej okolicy i miejskiego komfortu.
-        </p>
-        <p>Inwestycję wyróżnia kameralna i przyjazna zabudowa. Proste a zarazem eleganckie bryły budynków harmonijnie
-          wkomponowują się w zielone otoczenie. Urok inwestycji podkreślają drzewa i kwiaty oraz strefa wypoczynku z
-          placem zabaw dla dzieci. Greenwood Park powstaje w jednej z najbardziej zielonych części Warszawy,
-          zlokalizowanej w otulinie Mazowieckiego Parku Krajobrazowego.</p>
-        <p>Osiedle będzie obejmować trzypiętrowe budynki, w których powstanie łącznie 108 mieszkań o zróżnicowanym
-          rozkładzie (od mieszkań dwupokojowych po czteropokojowe) i metrażu (od 38 do 81 metrów) oraz garaż podziemny
-          ze 112 miejscami parkingowymi.</p>
+        <p>Greenwood Park to nowa, wyjątkowa inwestycja mieszkaniowa realizowana przez spółkę Greenwood II, przy ulicy
+          Jeździeckiej w Starej Miłosnej. To idealna propozycja dla osób, które marzą o życiu w otoczeniu zieleni i
+          spokoju, a jednocześnie chcą cieszyć się wygodnym dojazdem do centrum stolicy.</p>
+        <p>Osiedle łączy w sobie zalety kameralnej okolicy z komfortem miejskiej infrastruktury. Elegancka architektura
+          budynków harmonijnie współgra z otaczającą przyrodą, tworząc spójną i przyjazną przestrzeń do życia.
+          Wyjątkowość inwestycji podkreślają starannie zaprojektowane budynki oraz strefa relaksu z placem zabaw dla
+          dzieci. Greenwood Park powstaje w jednej z najbardziej zielonych części Warszawy – w otulinie Mazowieckiego
+          Parku Krajobrazowego.</p>
+        <p>W ramach inwestycji powstanie 108 komfortowych mieszkań o zróżnicowanych układach i metrażach – od
+          funkcjonalnych, 38-metrowych apartamentów dwupokojowych po przestronne, 81-metrowe mieszkania czteropokojowe.
+          Do dyspozycji mieszkańców przewidziano także nowoczesny garaż podziemny z 112 miejscami parkingowymi.</p>
       </div>
     </div>
 

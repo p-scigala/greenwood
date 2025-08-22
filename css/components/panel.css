@@ -5,6 +5,8 @@
   width: calc(50% - 8px);
   position: relative;
   min-height: fit-content;
+  border-radius: 7px;
+  overflow: hidden;
 }
 
 .panel__name {

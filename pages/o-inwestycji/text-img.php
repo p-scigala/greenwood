@@ -5,12 +5,16 @@
   <div class="wrapper">
 
     <div class="text-img__content">
-      <h2 class="text-img__title scroll-animation">O inwestycji</h2>
+      <h2 class="text-img__title scroll-animation">Greenwood Park</h2>
+      <h3 class="text-img__subtitle scroll-animation">zamieszkaj tak, jak zawsze marzyłeś</h3>
       <div class="text-img__description scroll-animation delay-2">
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua.</p>
-        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-          est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+        <p>LWyobraź sobie codzienność w otoczeniu zieleni, ciszy i spokoju, zaledwie kilkanaście minut od centrum
+          Warszawy. Greenwood Park to wyjątkowa inwestycja w Starej Miłosnej, stworzona dla osób, które chcą łączyć
+          bliskość natury z komfortem miejskiego życia.</p>
+        <p>Elegancka architektura, kameralny charakter i sąsiedztwo Mazowieckiego Parku Krajobrazowego sprawiają, że
+          Greenwood Park to miejsce, gdzie odpoczywasz od zgiełku miasta, nie rezygnując z jego wygód. Starannie
+          zaprojektowana zieleń, przestrzenie wspólne sprzyjające spotkaniom i relaksowi, a także bezpieczny plac zabaw
+          dla najmłodszych – to wszystko czeka na przyszłych mieszkańców.</p>
       </div>
       <div class="text-img__icons scroll-animation delay-3">
         <div class="icon">

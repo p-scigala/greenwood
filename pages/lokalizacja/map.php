@@ -11,14 +11,14 @@
           <div class="icon__wrapper">
             <img src="imgs/icons/walk-black.svg" alt="" class="icon__img">
           </div>
-          <span class="icon__text">Park linowy<i>2 minuty</i></span>
+          <span class="icon__text">Park linowy<i>1 minuta</i></span>
         </div>
 
         <div class="icon">
           <div class="icon__wrapper">
             <img src="imgs/icons/walk-black.svg" alt="" class="icon__img">
           </div>
-          <span class="icon__text">Supermarket<i>1 minuta</i></span>
+          <span class="icon__text">Supermarket<i>2 minuty</i></span>
         </div>
 
         <div class="icon">
@@ -41,23 +41,23 @@
 
         <div class="icon">
           <div class="icon__wrapper">
+            <img src="imgs/icons/walk-black.svg" alt="" class="icon__img">
+          </div>
+          <span class="icon__text">Placówka medyczna<i>5 minut</i></span>
+        </div>
+
+        <div class="icon">
+          <div class="icon__wrapper">
+            <img src="imgs/icons/walk-black.svg" alt="" class="icon__img">
+          </div>
+          <span class="icon__text">Restauracje<i>2 minuty</i></span>
+        </div>
+
+        <div class="icon">
+          <div class="icon__wrapper">
             <img src="imgs/icons/car-black.svg" alt="" class="icon__img">
           </div>
           <span class="icon__text">Park Krajobrazowy<i>5 minut</i></span>
-        </div>
-
-        <div class="icon">
-          <div class="icon__wrapper">
-            <img src="imgs/icons/car-black.svg" alt="" class="icon__img">
-          </div>
-          <span class="icon__text">Rolkostrada Wesoła<i>5 minut</i></span>
-        </div>
-
-        <div class="icon">
-          <div class="icon__wrapper">
-            <img src="imgs/icons/car-black.svg" alt="" class="icon__img">
-          </div>
-          <span class="icon__text">Zalew Zegrzyński<i>5 minut</i></span>
         </div>
 
         <div class="icon">

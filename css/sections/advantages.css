@@ -38,6 +38,8 @@
 .advantages__content {
   display: flex;
   gap: 30px;
+  position: relative;
+  z-index: 2;
 }
 
 .advantages__column {

@@ -151,6 +151,21 @@
   gap: 30px;
 }
 
+.text-1, .text-2 {
+  opacity: 1;
+  visibility: visible;
+  transition-duration: 0.6s;
+  max-height: fit-content;
+  height: 1000px
+}
+
+.text-1.hidden,
+.text-2.hidden {
+  opacity: 0;
+  height: 0;
+  visibility: hidden;
+}
+
 @media (max-width: 1400px) {
   .text-img--multiple .text-img__image-inner {
     height: calc(36vw - 32px);

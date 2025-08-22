@@ -5,16 +5,17 @@
   <div class="wrapper">
 
     <div class="text-img__content">
-      <h2 class="text-img__title scroll-animation">JAKOŚĆ I PRECYZJA<br>NA KAŻDYM ETAPIE BUDOWY</h2>
+      <h2 class="text-img__title scroll-animation">Jakość i precyzja<br>na każdym etapie realizacji</h2>
       <div class="text-img__description scroll-animation delay-2">
-        <p>Projektując i realizując budowę inwestycji GREENWOOD, znajdującego się przy ul. Jeździeckiej w warszawskiej
-          dzielnicy Wesoła, największy nacisk położono na najwyższą jakość materiałów i wykonania.</p>
-        <p>Od samego początku naszym celem było solidne budowanie mieszkań z myślą o najbardziej wymagających klientach.
-          Do realizacji inwestycji zastosowano starannie dobrane materiały wysokiej klasy oraz nowoczesne technologie.
-        </p>
-        <p>Osiedle, budynki oraz każde mieszkanie oferowane przez dewelopera w Miasteczku GREENWOOD zostały wykonane z
-          ogromną precyzją i dbałością o każdy detal. Dzięki temu inwestycja łączy walory estetyczne z funkcjonalnością,
-          tworząc komfortową przestrzeń do życia na lata.</p>
+        <p>Projektując i realizując budowę inwestycji GREENWOOD PARK największy nacisk kładziemy na najwyższą jakość
+          materiałów i wykonania.</p>
+        <p>Naszym celem jest budowanie mieszkań z myślą o najbardziej wymagających klientach. Do realizacji inwestycji
+          zastosowano starannie dobrane materiały wysokiej klasy oraz nowoczesne technologie.</p>
+        <p>Każde mieszkanie oferowane w inwestycji w Wesołej zostało zaprojektowane i realizowane jest z ogromną
+          precyzją i dbałością o każdy detal. Dzięki temu inwestycja łączy walory estetyczne z funkcjonalnością, tworząc
+          komfortową przestrzeń do życia na lata.</p>
+        <p><strong>Greenwood Park to więcej niż mieszkanie – to styl życia w harmonii z naturą, nowoczesnością i
+            pewnością dobrze podjętej decyzji.</strong></p>
       </div>
     </div>
 

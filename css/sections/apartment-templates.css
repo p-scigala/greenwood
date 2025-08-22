@@ -18,6 +18,8 @@
   min-height: 651px;
   background-color: var(--white);
   border: solid 1px var(--gray);
+  border-radius: 7px;
+  overflow: hidden;
 }
 
 .apartment-templates__name {

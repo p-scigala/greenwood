@@ -7,10 +7,10 @@
     <div class="text-img__content">
       <h2 class="text-img__title scroll-animation">Szybki dojazd<br>do centrum</h2>
       <div class="text-img__description scroll-animation delay-2">
-        <p>Mimo spokojnego otoczenia, osiedle Greenwood przy ul. Jeździeckiej zapewnia wygodne połączenia z resztą
-          miasta – zarówno dla kierowców, jak i osób korzystających z komunikacji miejskiej.</p>
-        <p>W okolicy znajdują się liczne przystanki autobusowe i tramwajowe, a także węzły drogowe umożliwiające szybki
-          dojazd do centrum Warszawy.</p>
+        <p>Dojazd do centrum Warszawy zajmuje zaledwie kilkanaście minut, co pozwala cieszyć się spokojem podmiejskiej
+          okolicy bez rezygnacji z miejskich wygód. Bliskość trasy S2 i Wału Miedzeszyńskiego gwarantuje sprawną i
+          szybką komunikację samochodem. Dodatkowo liczne linie autobusowe zapewniają łatwy dostęp do różnych części
+          stolicy.</p>
       </div>
     </div>
 

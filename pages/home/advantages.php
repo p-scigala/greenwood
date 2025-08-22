@@ -6,20 +6,6 @@
     <div class="advantages__content">
       <div class="advantages__column advantages__column--left">
 
-        <div class="advantages__item scroll-animation delay-1">
-          <div class="advantages__icon-wrapper icon__wrapper">
-            <img src="imgs/icons/gardening.svg" alt="" class="advantages__icon icon__img">
-          </div>
-          <h3 class="advantages__subtitle">Ogródki<br>lokatorskie</h3>
-        </div>
-
-        <div class="advantages__item scroll-animation delay-2">
-          <div class="advantages__icon-wrapper icon__wrapper">
-            <img src="imgs/icons/recreation.svg" alt="" class="advantages__icon icon__img">
-          </div>
-          <h3 class="advantages__subtitle">Atrakcyjne<br>tereny rekreacyjne</h3>
-        </div>
-
         <div class="advantages__item scroll-animation delay-3">
           <div class="advantages__icon-wrapper icon__wrapper">
             <img src="imgs/icons/location.svg" alt="" class="advantages__icon icon__img">
@@ -27,11 +13,25 @@
           <h3 class="advantages__subtitle">Doskonała<br>lokalizacja</h3>
         </div>
 
+        <div class="advantages__item scroll-animation delay-2">
+          <div class="advantages__icon-wrapper icon__wrapper">
+            <img src="imgs/icons/house.svg" alt="" class="advantages__icon icon__img">
+          </div>
+          <h3 class="advantages__subtitle">Kameralna<br>zabudowa</h3>
+        </div>
+
         <div class="advantages__item scroll-animation delay-4">
           <div class="advantages__icon-wrapper icon__wrapper">
-            <img src="imgs/icons/park.svg" alt="" class="advantages__icon icon__img">
+            <img src="imgs/icons/house.svg" alt="" class="advantages__icon icon__img">
           </div>
-          <h3 class="advantages__subtitle">W otulinie Mazowieckiego<br>Parku Krajobrazowego</h3>
+          <h3 class="advantages__subtitle">Mieszkania dopasowane<br>do potrzeb</h3>
+        </div>
+
+        <div class="advantages__item scroll-animation delay-1">
+          <div class="advantages__icon-wrapper icon__wrapper">
+            <img src="imgs/icons/gardening.svg" alt="" class="advantages__icon icon__img">
+          </div>
+          <h3 class="advantages__subtitle">Przestronne<br>balkony i&nbsp;ogródki</h3>
         </div>
 
       </div>
@@ -43,32 +43,32 @@
 
       <div class="advantages__column advantages__column--right">
 
+        <div class="advantages__item scroll-animation delay-5">
+          <div class="advantages__icon-wrapper icon__wrapper">
+            <img src="imgs/icons/education.svg" alt="" class="advantages__icon icon__img">
+          </div>
+          <h3 class="advantages__subtitle">Szkoły,&nbsp;przeszkola<br>i&nbsp;infrastruktura&nbsp;miejsca</h3>
+        </div>
+
         <div class="advantages__item scroll-animation delay-2">
           <div class="advantages__icon-wrapper icon__wrapper">
-            <img src="imgs/icons/house.svg" alt="" class="advantages__icon icon__img">
+            <img src="imgs/icons/recreation.svg" alt="" class="advantages__icon icon__img">
           </div>
-          <h3 class="advantages__subtitle">Kameralna<br>zabudowa</h3>
+          <h3 class="advantages__subtitle">Atrakcyjne<br>tereny&nbsp;rekreacyjne</h3>
         </div>
 
         <div class="advantages__item scroll-animation delay-3">
           <div class="advantages__icon-wrapper icon__wrapper">
             <img src="imgs/icons/motorway.svg" alt="" class="advantages__icon icon__img">
           </div>
-          <h3 class="advantages__subtitle">Bliskość<br>trasy S2</h3>
+          <h3 class="advantages__subtitle">Szybki&nbsp;dojazd<br>dzieki&nbsp;trasie&nbsp;S2</h3>
         </div>
 
         <div class="advantages__item scroll-animation delay-4">
           <div class="advantages__icon-wrapper icon__wrapper">
-            <img src="imgs/icons/parking.svg" alt="" class="advantages__icon icon__img">
+            <img src="imgs/icons/park.svg" alt="" class="advantages__icon icon__img">
           </div>
-          <h3 class="advantages__subtitle">Garaż<br>podziemny</h3>
-        </div>
-
-        <div class="advantages__item scroll-animation delay-5">
-          <div class="advantages__icon-wrapper icon__wrapper">
-            <img src="imgs/icons/education.svg" alt="" class="advantages__icon icon__img">
-          </div>
-          <h3 class="advantages__subtitle">Szkoły<br>i przeszkola</h3>
+          <h3 class="advantages__subtitle">Wygoda<br>i&nbsp;bezpieczeństwo</h3>
         </div>
 
       </div>
